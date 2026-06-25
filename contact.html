@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Seaview Homes Luxury Villas St. John</title>
+    <meta name="description" content="Get in touch with Seaview Homes to book your luxury villa in St. John. Professional concierge service and seamless booking.">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact Us | Seaview Homes Luxury Villas St. John">
+    <meta property="og:description" content="Get in touch with Seaview Homes to book your luxury villa in St. John. Professional concierge service and seamless booking.">
+    <meta property="og:url" content="https://seaviewhomes.com/contact">
+    <meta property="og:type" content="website">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact Us | Seaview Homes Luxury Villas St. John">
+    <meta name="twitter:description" content="Get in touch with Seaview Homes to book your luxury villa in St. John.">
+    <link rel="canonical" href="https://seaviewhomes.com/contact">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">Seaview Homes</a>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="villas.html" class="nav-link">Villas</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="things-to-do.html" class="nav-link">Things To Do</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" style="height: 40vh;">
+            <div class="hero-content container">
+                <h1>Contact Our Concierge</h1>
+            </div>
+        </section>
+
+        <section class="container">
+            <div style="display: grid; grid-template-columns: 1fr; gap: 3rem;">
+                
+                <!-- Contact Info -->
+                <div style="text-align: center;">
+                    <div class="section-title">
+                        <h2>We're Here to Help</h2>
+                        <p>Reach out to our team for personalized booking assistance and concierge services.</p>
+                    </div>
+                    <div style="margin-bottom: 3rem;">
+                        <p><strong>Email:</strong> info@seaviewhomes.com</p>
+                        <p><strong>Phone:</strong> +1 (340) 555-0123</p>
+                        <p><strong>Location:</strong> Cruz Bay, St. John, US Virgin Islands</p>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="villa-card" style="padding: 2rem; background: white; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
+                    <form action="/placeholder-endpoint" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                            <div class="form-group">
+                                <label for="dates">Preferred Dates</label>
+                                <input type="text" id="dates" name="dates" placeholder="June 15 - June 22">
+                            </div>
+                            <div class="form-group">
+                                <label for="guests">Number of Guests</label>
+                                <input type="number" id="guests" name="guests" placeholder="4" min="1">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="villa">Interested Villa</label>
+                            <select id="villa" name="villa">
+                                <option value="any">Any Villa</option>
+                                <option value="azure-horizon">Azure Horizon</option>
+                                <option value="sandalwood-sanctuary">Sandalwood Sanctuary</option>
+                                <option value="the-palms-estate">The Palms Estate</option>
+                                <option value="sirens-cove">Siren's Cove</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your dream stay..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer style="margin-top: 4rem;">
+        <div class="container">
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="villas.html">Villas</a>
+                <a href="about.html">About</a>
+                <a href="things-to-do.html">Things To Do</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <p>&copy; 2026 Seaview Homes. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/main.js" defer></script>
+</body>
+</html>
