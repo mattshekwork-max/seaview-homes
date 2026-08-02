@@ -182,6 +182,41 @@
             </div>
         </section>
 
+        <!-- Photo Gallery -->
+        <section style="background: var(--color-bg-alt);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Photo Gallery</h2>
+                </div>
+                <div class="villa-gallery" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 0.75rem;">
+                    <img src="../assets/img/villa-photos/mystical-mermaid/1.jpg" alt="Mystical Mermaid in St. John, USVI - photo 1" loading="lazy" style="width:100%; height:220px; object-fit:cover; border-radius:6px; cursor:zoom-in; display:block;">
+                    <img src="../assets/img/villa-photos/mystical-mermaid/2.jpg" alt="Mystical Mermaid in St. John, USVI - photo 2" loading="lazy" style="width:100%; height:220px; object-fit:cover; border-radius:6px; cursor:zoom-in; display:block;">
+                    <img src="../assets/img/villa-photos/mystical-mermaid/3.jpg" alt="Mystical Mermaid in St. John, USVI - photo 3" loading="lazy" style="width:100%; height:220px; object-fit:cover; border-radius:6px; cursor:zoom-in; display:block;">
+                    <img src="../assets/img/villa-photos/mystical-mermaid/4.jpg" alt="Mystical Mermaid in St. John, USVI - photo 4" loading="lazy" style="width:100%; height:220px; object-fit:cover; border-radius:6px; cursor:zoom-in; display:block;">
+                    <img src="../assets/img/villa-photos/mystical-mermaid/5.jpg" alt="Mystical Mermaid in St. John, USVI - photo 5" loading="lazy" style="width:100%; height:220px; object-fit:cover; border-radius:6px; cursor:zoom-in; display:block;">
+                </div>
+            </div>
+        </section>
+
+        <div id="lightbox" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.92); z-index:9999; align-items:center; justify-content:center; cursor:zoom-out;">
+            <img id="lightbox-img" src="" alt="" style="max-width:94vw; max-height:94vh; object-fit:contain; border-radius:4px;">
+            <button id="lightbox-close" aria-label="Close gallery image" style="position:absolute; top:1rem; right:1.5rem; background:none; border:none; color:#fff; font-size:2.5rem; line-height:1; cursor:pointer;">&times;</button>
+        </div>
+        <script>
+        (function () {
+            var box = document.getElementById('lightbox'),
+                img = document.getElementById('lightbox-img');
+            function close() { box.style.display = 'none'; img.src = ''; }
+            document.querySelectorAll('.villa-gallery img').forEach(function (t) {
+                t.addEventListener('click', function () {
+                    img.src = t.src; img.alt = t.alt; box.style.display = 'flex';
+                });
+            });
+            box.addEventListener('click', close);
+            document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+        })();
+        </script>
+
         <!-- Amenities -->
         <section style="background: var(--color-bg-alt);">
             <div class="container">
