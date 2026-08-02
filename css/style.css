@@ -431,3 +431,51 @@ footer p {
         padding: 5rem 0;
     }
 }
+/* ============================================
+   Motion — scroll reveals & micro-interactions
+   (gated on prefers-reduced-motion)
+   ============================================ */
+header {
+    transition: box-shadow 0.35s ease;
+}
+header.scrolled {
+    box-shadow: 0 4px 24px rgba(0, 30, 60, 0.12);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .reveal {
+        opacity: 0;
+        transform: translateY(26px);
+        transition:
+            opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+            transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+        transition-delay: var(--reveal-delay, 0s);
+    }
+    .reveal.in-view {
+        opacity: 1;
+        transform: none;
+    }
+
+    /* Gallery tiles: gentle lift + zoom on hover */
+    .villa-gallery img {
+        transition: transform 0.45s ease, box-shadow 0.45s ease;
+    }
+    .villa-gallery img:hover {
+        transform: scale(1.03) translateY(-3px);
+        box-shadow: var(--shadow-md);
+    }
+
+    /* Card imagery drifts slightly slower than the card lift */
+    .villa-img img {
+        transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+
+    /* Hero content entrance on page load */
+    .hero-entrance {
+        animation: heroRise 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+    }
+    @keyframes heroRise {
+        from { opacity: 0; transform: translateY(30px); }
+        to   { opacity: 1; transform: none; }
+    }
+}

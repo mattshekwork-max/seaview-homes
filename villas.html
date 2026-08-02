@@ -25,7 +25,7 @@
       gtag('config', 'G-CLHXWEGPN2');
     </script>
     
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css?v=20260802a">
     
     <!-- Schema.org ItemList -->
     <script type="application/ld+json">
@@ -336,10 +336,23 @@
             if (!valid) filter = 'all';
 
             var shown = 0;
+            var revealed = [];
             sections().forEach(function (sec) {
                 var on = filter === 'all' || sec.id === filter;
                 sec.style.display = on ? '' : 'none';
-                if (on) shown += sec.querySelectorAll('article.villa-card').length;
+                if (on) {
+                    shown += sec.querySelectorAll('article.villa-card').length;
+                    revealed.push.apply(revealed, sec.querySelectorAll('.reveal'));
+                }
+            });
+
+            // Replay the cascade on the villas that just came into play,
+            // and never leave a card stuck invisible behind a missed observer.
+            revealed.forEach(function (el) { el.classList.remove('in-view'); });
+            requestAnimationFrame(function () {
+                requestAnimationFrame(function () {
+                    revealed.forEach(function (el) { el.classList.add('in-view'); });
+                });
             });
 
             buttons.forEach(function (b) {
@@ -402,6 +415,6 @@
             <p>&copy; 2026 Seaview Vacation Homes, Inc. All rights reserved.</p>
         </div>
     </footer>
-    <script src="js/main.js" defer></script>
+    <script src="js/main.js?v=20260802a" defer></script>
 </body>
 </html>
