@@ -1,0 +1,6 @@
+# Working files for the Wayback port — kept in the repo, never deployed
+old-villa-data.json
+old-vs-new-comparison.html
+generate_villas.py
+*.bak
+.DS_Store

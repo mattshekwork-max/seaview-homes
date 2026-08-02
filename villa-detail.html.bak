@@ -3,10 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Azure Horizon | Luxury Villa Rental St. John</title>
-    <meta name="description" content="Explore Azure Horizon, a breathtaking 4-bedroom oceanfront luxury villa in St. John. Experience the pinnacle of Caribbean living.">
+    <title>Azure Horizon | Luxury 4-Bedroom Oceanfront Villa Rental St. John</title>
+    <meta name="description" content="Explore Azure Horizon, a breathtaking 4-bedroom oceanfront luxury villa in St. John, USVI. Infinity pool, gourmet kitchen, panoramic views. Book with Seaview Homes.">
+    <meta name="keywords" content="Azure Horizon, St John villa rental, 4 bedroom villa St John, oceanfront villa St John, luxury villa USVI">
+    <meta property="og:title" content="Azure Horizon | Luxury 4-Bedroom Oceanfront Villa in St. John">
+    <meta property="og:description" content="A breathtaking 4-bedroom oceanfront luxury villa in St. John. Infinity pool, gourmet kitchen, panoramic views.">
+    <meta property="og:url" content="https://seaviewhomes.com/villas/azure-horizon">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Seaview Homes">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Azure Horizon | Luxury Oceanfront Villa in St. John">
+    <meta name="twitter:description" content="4-bedroom oceanfront luxury villa with infinity pool in St. John, USVI.">
     <link rel="canonical" href="https://seaviewhomes.com/villas/azure-horizon">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLHXWEGPN2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CLHXWEGPN2');
+    </script>
+    
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Schema.org LodgingBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LodgingBusiness",
+      "name": "Azure Horizon",
+      "description": "4-bedroom oceanfront luxury villa in St. John, USVI with infinity pool, gourmet kitchen, and panoramic ocean views.",
+      "url": "https://seaviewhomes.com/villas/azure-horizon",
+      "numberOfRooms": 4",
+      "amenityFeature": [
+        {"@type": "LocationFeatureSpecification", "name": "Infinity Pool"},
+        {"@type": "LocationFeatureSpecification", "name": "Oceanfront"},
+        {"@type": "LocationFeatureSpecification", "name": "Gourmet Kitchen"},
+        {"@type": "LocationFeatureSpecification", "name": "Smart Home Automation"},
+        {"@type": "LocationFeatureSpecification", "name": "High-Speed Wi-Fi"},
+        {"@type": "LocationFeatureSpecification", "name": "Daily Housekeeping"}
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "St. John",
+        "addressRegion": "VI",
+        "addressCountry": "US"
+      },
+      "provider": {
+        "@type": "Organization",
+        "name": "Seaview Vacation Homes, Inc.",
+        "telephone": "+1-340-776-6805",
+        "email": "info@seaviewhomes.com"
+      }
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -20,16 +71,18 @@
                 <a href="villas.html" class="nav-link">Villas</a>
                 <a href="about.html" class="nav-link">About</a>
                 <a href="things-to-do.html" class="nav-link">Things To Do</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
                 <a href="contact.html" class="nav-link">Contact</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero" style="height: 60vh;">
+        <section class="hero" style="height: 60vh; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)), url('assets/img/villas/oceanport-villa.webp') center/cover no-repeat;">
             <div class="hero-content container">
                 <h1>Azure Horizon</h1>
-                <p style="color: white;">The Perfect Blend of Modernity and Nature.</p>
+                <p style="color: white;">The perfect blend of modernity and nature.</p>
             </div>
         </section>
 
@@ -57,14 +110,14 @@
                     <div style="margin-bottom: 2rem;">
                         <h3>Villa Amenities</h3>
                         <ul style="columns: 2; margin-top: 1rem; gap: 1rem;">
-                            <li>✓ Private Infinity Pool</li>
-                            <li>✓ Gourmet Chef's Kitchen</li>
-                            <li>✓ Smart Home Automation</li>
-                            <li>✓ Panoramic Balconies</li>
-                            <li>✓ High-Speed Fiber Wi-Fi</li>
-                            <li>✓ Daily Housekeeping</li>
-                            <li>✓ Private Gated Driveway</li>
-                            <li>✓ Outdoor Rain Showers</li>
+                            <li>&#10003; Private Infinity Pool</li>
+                            <li>&#10003; Gourmet Chef's Kitchen</li>
+                            <li>&#10003; Smart Home Automation</li>
+                            <li>&#10003; Panoramic Balconies</li>
+                            <li>&#10003; High-Speed Fiber Wi-Fi</li>
+                            <li>&#10003; Daily Housekeeping</li>
+                            <li>&#10003; Private Gated Driveway</li>
+                            <li>&#10003; Outdoor Rain Showers</li>
                         </ul>
                     </div>
 
@@ -78,10 +131,18 @@
                 <h2>Villa Gallery</h2>
             </div>
             <div class="villa-grid">
-                <div class="villa-img-placeholder" style="height: 300px;"></div>
-                <div class="villa-img-placeholder" style="height: 300px;"></div>
-                <div class="villa-img-placeholder" style="height: 300px;"></div>
-                <div class="villa-img-placeholder" style="height: 300px;"></div>
+                <div class="villa-img" style="height: 300px; overflow: hidden; border-radius: 8px;">
+                        <img src="assets/img/villas/oceanport-villa.webp" alt="Oceanport Villa - exterior view" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="villa-img" style="height: 300px; overflow: hidden; border-radius: 8px;">
+                        <img src="assets/img/hero/img-1165.webp" alt="Oceanport Villa - pool and ocean view" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="villa-img" style="height: 300px; overflow: hidden; border-radius: 8px;">
+                        <img src="assets/img/hero/img-1184.webp" alt="Oceanport Villa - living area" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="villa-img" style="height: 300px; overflow: hidden; border-radius: 8px;">
+                        <img src="assets/img/hero/img-1200.webp" alt="Oceanport Villa - bedroom and ocean view" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
             </div>
         </section>
     </main>
@@ -93,6 +154,8 @@
                 <a href="villas.html">Villas</a>
                 <a href="about.html">About</a>
                 <a href="things-to-do.html">Things To Do</a>
+                <a href="services.html">Services</a>
+                <a href="faq.html">FAQ</a>
                 <a href="contact.html">Contact</a>
             </div>
             <div class="footer-social">
@@ -106,7 +169,8 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.417 2.561-5.417 5.211 0 1.033.397 2.143.895 2.745.099.12.112.225.083.348-.09.375-.293 1.199-.334 1.367-.053.223-.175.271-.402.165-1.499-.698-2.436-2.895-2.436-4.658 0-3.794 2.755-7.281 7.951-7.281 4.176 0 7.421 2.977 7.421 6.958 0 4.154-2.62 7.495-6.253 7.495-1.222 0-2.371-.635-2.765-1.385l-.751 2.862c-.272 1.047-1.007 2.361-1.502 3.162C9.57 23.812 10.779 24 12.017 24c6.621 0 11.988-5.367 11.988-11.987C24.005 5.367 18.638 0 12.017 0z"/></svg>
                 </a>
             </div>
-            <p>&copy; 2026 Seaview Homes. All rights reserved.</p>
+            <p>Seaview Vacation Homes, Inc. | 5000 Estate Enighed, PMB # 350, St. John VI 00830 | 1-340-776-6805 | info@seaviewhomes.com</p>
+            <p>&copy; 2026 Seaview Vacation Homes, Inc. All rights reserved.</p>
         </div>
     </footer>
     <script src="js/main.js" defer></script>

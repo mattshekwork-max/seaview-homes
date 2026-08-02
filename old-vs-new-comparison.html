@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seaview Homes — Old vs New Site Comparison</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #222; line-height: 1.6; }
+  .header { background: #1a3a5c; color: white; padding: 2rem; text-align: center; }
+  .header h1 { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  .header p { opacity: 0.85; font-size: 0.95rem; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+  .issue-card { background: white; border-radius: 12px; padding: 2rem; margin-bottom: 1.5rem; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-left: 5px solid #e74c3c; }
+  .issue-card.ok { border-left-color: #27ae60; }
+  .issue-card h2 { font-size: 1.3rem; margin-bottom: 1rem; color: #1a3a5c; }
+  .issue-card .badge { display: inline-block; padding: 3px 12px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; margin-bottom: 1rem; }
+  .badge.fix { background: #fce4e4; color: #c0392b; }
+  .badge.ok { background: #e8f8f0; color: #27ae60; }
+  .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem; }
+  .side { padding: 1.5rem; border-radius: 8px; }
+  .side.old { background: #fef5f5; border: 1px solid #f5cdc6; }
+  .side.new { background: #f0f7ff; border: 1px solid #c6daf5; }
+  .side h3 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 1rem; }
+  .side.old h3 { color: #c0392b; }
+  .side.new h3 { color: #2980b9; }
+  .side ul { list-style: none; }
+  .side li { padding: 0.4rem 0; border-bottom: 1px solid rgba(0,0,0,0.06); font-size: 0.95rem; }
+  .side li:last-child { border-bottom: none; }
+  .side .label { font-weight: 600; color: #555; display: inline-block; min-width: 120px; }
+  .summary { background: #fff3cd; border: 1px solid #ffeaa7; border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+  .summary h2 { color: #856404; margin-bottom: 1rem; }
+  .summary ul { margin-left: 1.5rem; }
+  .summary li { margin-bottom: 0.5rem; }
+  .actions { background: #d4edda; border: 1px solid #c3e6cb; border-radius: 12px; padding: 2rem; margin-top: 1rem; }
+  .actions h2 { color: #155724; margin-bottom: 1rem; }
+  .actions ol { margin-left: 1.5rem; }
+  .actions li { margin-bottom: 0.5rem; }
+  .meta { font-size: 0.85rem; color: #888; margin-top: 0.5rem; }
+  @media (max-width: 768px) { .comparison { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Seaview Homes — Old Site vs New Site</h1>
+  <p>Comparison of discrepancies found between the original site (Wayback Machine archive, June 2026) and the current live site (seaviewhomes.com)</p>
+  <p class="meta">Generated Sunday, August 2, 2026 for review by Uncle Mark</p>
+</div>
+
+<div class="container">
+
+  <div class="summary">
+    <h2>⚠️ Issues Found: 4 discrepancies need correction</h2>
+    <ul>
+      <li><strong>1. Missing toll-free phone number</strong> — Old site had 1-888-625-2963, new site dropped it</li>
+      <li><strong>2. Missing fax number</strong> — Old site had 1-340-779-4349, new site dropped it</li>
+      <li><strong>3. Island stats changed</strong> — "8 miles long / 46 beaches" became "7 miles long / 40 beaches"</li>
+      <li><strong>4. Missing detailed ferry schedule</strong> — Old services page had full times, prices, downtown ferry info, private water taxi link, packing list link</li>
+    </ul>
+  </div>
+
+  <!-- Issue 1: Contact Info -->
+  <div class="issue-card">
+    <span class="badge fix">NEEDS FIX</span>
+    <h2>📞 Issue 1: Contact Information Missing</h2>
+    <p>The old site listed a toll-free number and fax number. The new site only has the local St. John number.</p>
+    <div class="comparison">
+      <div class="side old">
+        <h3>Old Site (Archive)</h3>
+        <ul>
+          <li><span class="label">Toll-free:</span> <strong>1-888-625-2963</strong></li>
+          <li><span class="label">Local:</span> 1-340-776-6805</li>
+          <li><span class="label">Fax:</span> <strong>1-340-779-4349</strong></li>
+          <li><span class="label">Address:</span> P.O. Box 644, St. John USVI 00831</li>
+        </ul>
+      </div>
+      <div class="side new">
+        <h3>New Site (Live)</h3>
+        <ul>
+          <li><span class="label">Toll-free:</span> ❌ Missing</li>
+          <li><span class="label">Local:</span> 1-340-776-6805</li>
+          <li><span class="label">Fax:</span> ❌ Missing</li>
+          <li><span class="label">Address:</span> 5000 Estate Enighed, PMB #350, St. John VI 00830</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:1rem; font-size:0.9rem; color:#666;"><strong>Note:</strong> The address change itself (P.O. Box 644 → PMB #350) may be legitimate if the business moved. The toll-free and fax numbers need to be restored if still in use.</p>
+  </div>
+
+  <!-- Issue 2: Island Stats -->
+  <div class="issue-card">
+    <span class="badge fix">NEEDS FIX</span>
+    <h2>🗺️ Issue 2: Island Statistics Changed</h2>
+    <p>The old site described St. John as "8 miles long" with "46 beaches." The new site says "7 miles long" with "40 beaches."</p>
+    <div class="comparison">
+      <div class="side old">
+        <h3>Old Site (Services Page)</h3>
+        <ul>
+          <li><span class="label">Island length:</span> <strong>8 miles long</strong></li>
+          <li><span class="label">Beaches:</span> <strong>46 beaches</strong></li>
+          <li><span class="label">Area:</span> 21 square miles</li>
+        </ul>
+      </div>
+      <div class="side new">
+        <h3>New Site (Services Page)</h3>
+        <ul>
+          <li><span class="label">Island length:</span> <strong>7 miles long</strong></li>
+          <li><span class="label">Beaches:</span> <strong>40 beaches</strong></li>
+          <li><span class="label">Area:</span> 21 square miles</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:1rem; font-size:0.9rem; color:#666;"><strong>Context:</strong> St. John is approximately 9 miles long and has roughly 40-50 named beaches depending on how you count. The old "8 miles / 46 beaches" was closer to typical references. Need to confirm which numbers Uncle Mark considers correct.</p>
+  </div>
+
+  <!-- Issue 3: Ferry Schedule -->
+  <div class="issue-card">
+    <span class="badge fix">NEEDS FIX</span>
+    <h2>⛴️ Issue 3: Missing Detailed Ferry Schedule</h2>
+    <p>The old services page had complete ferry schedules with times, prices, and alternative routes. The new page is much more condensed.</p>
+    <div class="comparison">
+      <div class="side old">
+        <h3>Old Site — Full Ferry Info</h3>
+        <ul>
+          <li>✅ Red Hook ferry schedule (hourly, 6am-midnight)</li>
+          <li>✅ Charlotte Amalie (downtown) ferry schedule with specific times (8:45 AM, 11:15 AM, 3:45 PM / 10 AM, 1 PM, 5:30 PM)</li>
+          <li>✅ Ferry pricing ($8/person one way, $4/suitcase)</li>
+          <li>✅ Taxi pricing from airport ($18/person + $2/bag)</li>
+          <li>✅ Private taxi van rates ($75 for 4 people, $18 each additional)</li>
+          <li>✅ Private water taxi / dolphin shuttle link</li>
+          <li>✅ Packing list link</li>
+          <li>✅ Warning about downtown ferry reliability</li>
+          <li>✅ Car rental advice (some St. Thomas agencies prohibit barge transport)</li>
+        </ul>
+      </div>
+      <div class="side new">
+        <h3>New Site — Condensed</h3>
+        <ul>
+          <li>✅ Red Hook ferry mentioned (hourly, 6am-midnight)</li>
+          <li>❌ No downtown/Charlotte Amalie ferry schedule</li>
+          <li>❌ No ferry pricing</li>
+          <li>❌ No taxi pricing from airport</li>
+          <li>❌ No private taxi van rates</li>
+          <li>❌ No private water taxi link</li>
+          <li>❌ No packing list link</li>
+          <li>❌ No reliability warning for downtown ferry</li>
+          <li>✅ Car rental advice (4WD recommended) — but lost the St. Thomas barge prohibition note</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Issue 4: Homepage Things To Do -->
+  <div class="issue-card ok">
+    <span class="badge ok">DIFFERENT BUT OK</span>
+    <h2>🏖️ Issue 4: Homepage "Things To Do" Content</h2>
+    <p>The old homepage featured beach descriptions (Honeymoon Beach, Trunk Bay, Hawksnest Bay, Virgin Islands National Park). The new homepage has different SEO content (St. John guide, beaches, getting here, weather). This is a content redesign, not lost info — but the old beach descriptions may have details worth preserving.</p>
+    <div class="comparison">
+      <div class="side old">
+        <h3>Old Homepage</h3>
+        <ul>
+          <li>Honeymoon Beach description (kayak/paddleboard, trail access from Caneel Bay)</li>
+          <li>Trunk Bay description (Condé Nast top 10, underwater snorkeling trail)</li>
+          <li>Hawksnest Bay description (restrooms, picnic, reef, morning sun, sunsets)</li>
+          <li>Virgin Islands National Park description (2/3 of island, hiking trails, sugar plantations, reef bay trail)</li>
+        </ul>
+      </div>
+      <div class="side new">
+        <h3>New Homepage</h3>
+        <ul>
+          <li>St. John guide section (smallest of 3 USVI, 2/3 national park, no airport/cruise dock/mega-resorts)</li>
+          <li>Why rent a villa section</li>
+          <li>Best beaches section (Trunk Bay, Cinnamon Bay, Maho Bay, Honeymoon Beach, Saltpond Bay)</li>
+          <li>Getting to St. John section</li>
+          <li>Featured villas (Oceanport, Villa Splendore, Sea Forever)</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:1rem; font-size:0.9rem; color:#666;">The new content is arguably better for SEO. But the old Hawksnest Beach and National Park details are not fully replicated. Could be worth merging.</p>
+  </div>
+
+  <div class="actions">
+    <h2>✅ Recommended Actions</h2>
+    <ol>
+      <li><strong>Confirm with Uncle Mark</strong> which specific items need correcting and what the correct values are (toll-free still active? fax still used? which island stats are right?)</li>
+      <li><strong>Restore toll-free number</strong> (1-888-625-2963) to contact page, footer, and Schema.org markup if still active</li>
+      <li><strong>Restore fax number</strong> (1-340-779-4349) to contact page if still in use</li>
+      <li><strong>Fix island stats</strong> on services page (7 miles → 8 miles? 40 beaches → 46?)</li>
+      <li><strong>Add back detailed ferry schedule</strong> to services page (downtown ferry times, pricing, taxi rates, water taxi link, packing list)</li>
+      <li><strong>Deploy changes</strong> to Vercel and verify live</li>
+    </ol>
+  </div>
+
+  <div style="text-align:center; margin-top:2rem; color:#888; font-size:0.85rem;">
+    <p>Generated by OpenClaw Orchestrator · Aug 2, 2026 9:09 AM PT</p>
+    <p>Old site source: Wayback Machine (web.archive.org snapshot June 5, 2026) · New site source: seaviewhomes.com live + local Vercel project files</p>
+  </div>
+
+</div>
+
+</body>
+</html>

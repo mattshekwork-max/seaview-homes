@@ -1,0 +1,36 @@
+{
+  "redirects": [
+    {
+      "source": "/contact-us",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/attractions",
+      "destination": "/things-to-do",
+      "permanent": true
+    },
+    {
+      "source": "/best-places-to-stay-in-st-john-usvi",
+      "destination": "/villas",
+      "permanent": true
+    },
+    {
+      "source": "/about-us",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/villas/azure-horizon",
+      "destination": "/villas",
+      "permanent": true
+    },
+    {
+      "source": "/villa-detail",
+      "destination": "/villas",
+      "permanent": true
+    }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}

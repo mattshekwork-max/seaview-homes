@@ -5,39 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- SEO Meta Tags -->
-    <title>Seaview Homes | Luxury Villa Rentals in St. John</title>
-    <meta name="description" content="Luxury vacation villa rentals in St. John, USVI since 1986. One to five-bedroom villas from affordable to luxurious, with local expertise and personalized service.">
+    <title>Luxury Villa Rentals in St. John USVI | Seaview Homes</title>
+    <meta name="description" content="Luxury vacation villa rentals in St. John, USVI since 1986. One to five-bedroom villas from affordable to luxurious. Locally owned and operated.">
+    <meta name="keywords" content="St John villa rentals, luxury villas St John USVI, vacation rentals St John, Seaview Homes, St John vacation homes, USVI villa rentals, villa rentals by owner St John">
+    <meta name="google-site-verification" content="7qcSvq63T2p3jCGgfbA8tAGp8a6JPyisSdaYV83oO30" />
     <link rel="canonical" href="https://seaviewhomes.com/">
     
     <!-- Open Graph -->
-    <meta property="og:title" content="Seaview Homes | Luxury Villa Rentals in St. John">
+    <meta property="og:title" content="Luxury Villa Rentals in St. John USVI | Seaview Homes">
     <meta property="og:description" content="Luxury vacation villa rentals in St. John, USVI since 1986. One to five-bedroom villas from affordable to luxurious.">
     <meta property="og:image" content="https://seaviewhomes.com/assets/img/og-image.jpg">
     <meta property="og:url" content="https://seaviewhomes.com/">
     <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Seaview Homes">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Seaview Homes | Luxury Villa Rentals in St. John">
+    <meta name="twitter:title" content="Luxury Villa Rentals in St. John USVI | Seaview Homes">
     <meta name="twitter:description" content="Luxury villa rentals in St. John, USVI since 1986. One to five-bedroom villas with local expertise.">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLHXWEGPN2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CLHXWEGPN2');
+    </script>
     
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     
-    <!-- Schema.org LocalBusiness -->
+    <!-- Schema.org LodgingBusiness -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LodgingBusiness",
-      "name": "Seaview Homes",
+      "name": "Seaview Vacation Homes, Inc.",
       "description": "Luxury vacation villa rentals in St. John, USVI. One to five-bedroom villas from affordable to luxurious. Locally owned and operated since 1986.",
       "address": {
         "@type": "PostalAddress",
+        "streetAddress": "5000 Estate Enighed, PMB # 350",
         "addressLocality": "St. John",
-        "addressRegion": "US Virgin Islands"
+        "addressRegion": "VI",
+        "postalCode": "00830",
+        "addressCountry": "US"
       },
       "url": "https://seaviewhomes.com",
-      "telephone": "+1-340-XXX-XXXX",
+      "telephone": "+1-888-625-2963",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-340-776-6805",
+        "contactType": "reservations"
+      },
+      "faxNumber": "+1-340-779-4349",
+      "email": "info@seaviewhomes.com",
       "priceRange": "$$-$$$$",
       "foundingDate": "1986",
       "areaServed": "St. John, US Virgin Islands"
@@ -59,20 +81,36 @@
             <nav class="nav-menu">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="villas.html" class="nav-link">Villas</a>
+                <a href="blog.html" class="nav-link">Blog</a>
                 <a href="about.html" class="nav-link">About</a>
                 <a href="things-to-do.html" class="nav-link">Things To Do</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
                 <a href="contact.html" class="nav-link">Contact</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <section class="hero">
-            <div class="hero-content container">
-                <h1>Your St. John Paradise Awaits</h1>
-                <p style="font-size: 1.2rem; margin-bottom: 2rem; color: white;">Luxury villa rentals on the most beautiful island in the Caribbean — locally owned since 1986.</p>
-                <a href="villas.html" class="btn btn-primary">Explore Our Villas</a>
+        <!-- Hero Section - Island Montage -->
+        <section style="height: 70vh; min-height: 450px; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 2px; position: relative;">
+            <div style="grid-column: 1 / 4; grid-row: 1 / 3; background: url('assets/img/hero/trunk-bay.webp') center/cover no-repeat; position: relative;">
+                <div style="position: absolute; inset: 0; background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));"></div>
+                <div style="position: absolute; bottom: 2rem; left: 0; right: 0; text-align: center; color: white;">
+                    <h1 style="font-family: Georgia, serif; font-size: 2.8rem; font-weight: 600; color: #fff; text-shadow: 0 2px 20px rgba(0,0,0,0.55); margin-bottom: 0.5rem;">St. John, USVI</h1>
+                    <p style="font-size: 1.1rem; font-weight: 300; letter-spacing: 2px; opacity: 0.9; text-shadow: 0 1px 10px rgba(0,0,0,0.3);">Luxury villa rentals since 1986</p>
+                    <a href="villas.html" class="btn" style="background: rgba(255,255,255,0.9); color: var(--color-primary); margin-top: 1.5rem; display: inline-block; padding: 0.9rem 2rem; border-radius: 6px; font-weight: 600;">View Villas</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Island Photo Strip -->
+        <section style="padding: 0;">
+            <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 2px; height: 200px;">
+                <div style="background: url('assets/img/villas/sea-forever.webp') center/cover no-repeat;"></div>
+                <div style="background: url('assets/img/trunk-bay/trunk-bay-1.jpeg') center/cover no-repeat;"></div>
+                <div style="background: url('assets/img/villas/vista-caribe.webp') center/cover no-repeat;"></div>
+                <div style="background: url('assets/img/villas/waterfall.webp') center/cover no-repeat;"></div>
             </div>
         </section>
 
@@ -82,18 +120,21 @@
                 <h2>Why Seaview Homes?</h2>
                 <p>Curated villas, personal service, and four decades of local St. John expertise.</p>
             </div>
-            <div class="villa-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
-                <div class="villa-card" style="text-align: center; padding: 2rem;">
+            <div class="villa-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <div style="text-align: center; padding: 2.5rem 2rem;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🏖️</div>
                     <h3>Curated Selection</h3>
-                    <p>From cozy one-bedroom retreats to grand five-bedroom estates — every villa is handpicked for quality, comfort, and view.</p>
+                    <p style="color: var(--color-text-light);">From cozy one-bedroom retreats to grand five-bedroom estates. Every villa is handpicked for quality, comfort, and view.</p>
                 </div>
-                <div class="villa-card" style="text-align: center; padding: 2rem;">
+                <div style="text-align: center; padding: 2.5rem 2rem;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🌴</div>
                     <h3>Local Expertise Since 1986</h3>
-                    <p>Four decades on St. John means we know the best beaches, the hidden trails, and the right people to make your stay effortless.</p>
+                    <p style="color: var(--color-text-light);">Four decades on St. John means we know the best beaches, the hidden trails, and the right people to make your stay effortless.</p>
                 </div>
-                <div class="villa-card" style="text-align: center; padding: 2rem;">
+                <div style="text-align: center; padding: 2.5rem 2rem;">
+                    <div style="font-size: 2.5rem; margin-bottom: 1rem;">🌊</div>
                     <h3>Breathtaking Views</h3>
-                    <p>Oceanfront, hillside, and jungle-edge villas — each with a view that stops you in your tracks.</p>
+                    <p style="color: var(--color-text-light);">Oceanfront, hillside, and jungle-edge villas. Each with a view that stops you in your tracks.</p>
                 </div>
             </div>
         </section>
@@ -105,35 +146,41 @@
                     <h2>Featured Retreats</h2>
                     <p>Hand-picked villas for the ultimate getaway.</p>
                 </div>
-                <div class="villa-grid">
+                <div class="villa-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
                     <!-- Villa 1 -->
                     <article class="villa-card">
-                        <div class="villa-img-placeholder"></div>
+                        <div class="villa-img" style="height: 220px; overflow: hidden; border-radius: 8px 8px 0 0;">
+                            <img src="assets/img/villas/cinnamon-ridge.webp" alt="Cinnamon Ridge - 5 bedroom luxury villa in St. John" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
                         <div class="villa-info">
-                            <h3>Azure Horizon</h3>
-                            <p class="villa-meta">4 BR | 4 BA | Oceanfront</p>
-                            <p>A masterpiece of modern architecture blending seamlessly with the coastline.</p>
-                            <a href="villa-detail.html" class="btn btn-primary" style="margin-top: 1rem; display: block; text-align: center;">View Details</a>
+                            <h3>Cinnamon Ridge</h3>
+                            <p class="villa-meta">HGTV Caribbean House of the Year 2020</p>
+                            <p>Five bedrooms, private pool and hot tub, and Caribbean views from every angle.</p>
+                            <a href="villas/cinnamon-ridge.html" class="btn btn-primary" style="margin-top: 1rem; display: block; text-align: center;">View Details</a>
                         </div>
                     </article>
                     <!-- Villa 2 -->
                     <article class="villa-card">
-                        <div class="villa-img-placeholder"></div>
+                        <div class="villa-img" style="height: 220px; overflow: hidden; border-radius: 8px 8px 0 0;">
+                            <img src="assets/img/villas/villa-splendore.webp" alt="Villa Splendore - romantic hillside villa in St. John" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
                         <div class="villa-info">
-                            <h3>Sandalwood Sanctuary</h3>
-                            <p class="villa-meta">2 BR | 2 BA | hillside</p>
+                            <h3>Villa Splendore</h3>
+                            <p class="villa-meta">Hillside Retreat</p>
                             <p>Intimate and elegant, perfect for a romantic escape or a small family retreat.</p>
-                            <a href="villa-detail.html" class="btn btn-primary" style="margin-top: 1rem; display: block; text-align: center;">View Details</a>
+                            <a href="villas/villa-splendore.html" class="btn btn-primary" style="margin-top: 1rem; display: block; text-align: center;">View Details</a>
                         </div>
                     </article>
                     <!-- Villa 3 -->
                     <article class="villa-card">
-                        <div class="villa-img-placeholder"></div>
+                        <div class="villa-img" style="height: 220px; overflow: hidden; border-radius: 8px 8px 0 0;">
+                            <img src="assets/img/villas/sea-forever.webp" alt="Sea Forever - luxury estate villa in St. John" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
                         <div class="villa-info">
-                            <h3>The Palms Estate</h3>
-                            <p class="villa-meta">6 BR | 7 BA | Luxury Estate</p>
+                            <h3>Sea Forever</h3>
+                            <p class="villa-meta">Luxury Estate</p>
                             <p>The pinnacle of luxury living in St. John, designed for large groups and events.</p>
-                            <a href="villa-detail.html" class="btn btn-primary" style="margin-top: 1rem; display: block; text-align: center;">View Details</a>
+                            <a href="villas/sea-forever.html" class="btn btn-primary" style="margin-top: 1rem; display: block; text-align: center;">View Details</a>
                         </div>
                     </article>
                 </div>
@@ -146,18 +193,33 @@
                 <h2>Experience St. John</h2>
                 <p>From hidden beaches to gourmet dining, discover the island's magic.</p>
             </div>
-            <div class="villa-grid" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
-                <div class="villa-card" style="padding: 1.5rem; text-align: center;">
-                    <h3>Beaches</h3>
-                    <p>Explore the white sands of Trunk Bay and the secluded coves of North Shore.</p>
+            <div class="villa-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                <div class="villa-card" style="padding: 0; overflow: hidden;">
+                    <div style="height: 180px; overflow: hidden;">
+                        <img src="assets/img/trunk-bay/trunk-bay-1.jpeg" alt="Trunk Bay St. John beach" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 1.5rem; text-align: center;">
+                        <h3>Beaches</h3>
+                        <p style="color: var(--color-text-light);">Explore the white sands of Trunk Bay and the secluded coves of North Shore.</p>
+                    </div>
                 </div>
-                <div class="villa-card" style="padding: 1.5rem; text-align: center;">
-                    <h3>Hiking</h3>
-                    <p>Trek through the Virgin Islands National Park for vistas that defy belief.</p>
+                <div class="villa-card" style="padding: 0; overflow: hidden;">
+                    <div style="height: 180px; overflow: hidden;">
+                        <img src="assets/img/virgin-islands-national-park/national-park-1.jpeg" alt="Virgin Islands National Park hiking trails" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 1.5rem; text-align: center;">
+                        <h3>Hiking</h3>
+                        <p style="color: var(--color-text-light);">Trek through the Virgin Islands National Park for vistas that defy belief.</p>
+                    </div>
                 </div>
-                <div class="villa-card" style="padding: 1.5rem; text-align: center;">
-                    <h3>Dining</h3>
-                    <p>Savor Caribbean fusion at the island's most renowned seaside eateries.</p>
+                <div class="villa-card" style="padding: 0; overflow: hidden;">
+                    <div style="height: 180px; overflow: hidden;">
+                        <img src="assets/img/cruz-bay-dining/dining-3.webp" alt="Cruz Bay dining St. John" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 1.5rem; text-align: center;">
+                        <h3>Dining</h3>
+                        <p style="color: var(--color-text-light);">Savor Caribbean fusion at the island's most renowned seaside eateries.</p>
+                    </div>
                 </div>
             </div>
             <div style="text-align: center; margin-top: 3rem;">
@@ -165,23 +227,58 @@
             </div>
         </section>
 
-        <!-- Testimonials Placeholder -->
-        <section style="background: var(--color-secondary); padding: 4rem 0;">
-            <div class="container" style="text-align: center;">
-                <h2>Guest Experiences</h2>
-                <p style="margin-bottom: 3rem;">What our guests say about their stay.</p>
-                <div class="villa-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
-                    <blockquote class="villa-card" style="padding: 2rem; font-style: italic;">
-                        "The view from Azure Horizon was simply breathtaking. Every detail was handled perfectly by the Seaview team."
-                        <footer style="margin-top: 1rem; font-weight: bold; color: var(--color-primary);">— Sarah J., New York</footer>
-                    </blockquote>
-                    <blockquote class="villa-card" style="padding: 2rem; font-style: italic;">
-                        "An absolute paradise. We've stayed at many Caribbean rentals, but the service here is unmatched."
-                        <footer style="margin-top: 1rem; font-weight: bold; color: var(--color-primary);">— Michael R., London</footer>
-                    </blockquote>
+        <!-- CTA Section -->
+        <section style="background: linear-gradient(rgba(0,30,60,0.5), rgba(0,50,100,0.6)), url('assets/img/hero/img-1184.webp') center/cover no-repeat; padding: 5rem 0; text-align: center;">
+            <div class="container">
+                <h2 style="color: white; margin-bottom: 1rem; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">Ready for Your St. John Getaway?</h2>
+                <p style="color: rgba(255,255,255,0.9); font-size: 1.15rem; margin-bottom: 2rem; text-shadow: 0 1px 5px rgba(0,0,0,0.3);">Call us at 1-888-625-2963 (toll-free) or 1-340-776-6805, or send a message. We respond within 24 hours.</p>
+                <a href="contact.html" class="btn" style="background: var(--color-accent); color: var(--color-primary); font-size: 1.1rem; padding: 1.1rem 2.5rem;">Contact Us</a>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section style="background: var(--color-bg-alt);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Guest Experiences</h2>
+                    <p>What our guests say about their stay.</p>
+                </div>
+                <div class="villa-grid" style="grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));">
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-quote">The view from our villa was simply breathtaking. Every detail was handled perfectly by the Seaview team. We can't wait to come back.</p>
+                        <p class="testimonial-author">Sarah J. — New York</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-quote">An absolute paradise. We've stayed at many Caribbean rentals, but the service and local knowledge here is unmatched.</p>
+                        <p class="testimonial-author">Michael R. — London</p>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="stars">★★★★★</div>
+                        <p class="testimonial-quote">Seaview Homes made our family vacation effortless. From the car rental to the grocery stocking, everything was perfect.</p>
+                        <p class="testimonial-author">The Chen Family — California</p>
+                    </div>
                 </div>
             </div>
         </section>
+        <!-- SEO Content Section -->
+        <section class="container" style="max-width: 800px;">
+            <div style="padding: 2rem 0;">
+                <h2 style="text-align: center; margin-bottom: 2rem;">St. John Villa Rentals: Your Complete Guide</h2>
+                <p style="margin-bottom: 1.5rem; font-size: 1.05rem; line-height: 1.8;">St. John is the smallest of the three U.S. Virgin Islands, yet it offers some of the most breathtaking scenery in the entire Caribbean. With two-thirds of the island designated as Virgin Islands National Park, St. John remains beautifully unspoiled. Unlike St. Thomas or St. Croix, St. John has no airport, no cruise ship dock, and no mega-resorts. What it does have is dozens of pristine white-sand beaches, world-class snorkeling along protected coral reefs, and a laid-back island culture that keeps visitors coming back year after year.</p>
+                <p style="margin-bottom: 1.5rem; font-size: 1.05rem; line-height: 1.8;">Choosing a villa rental on St. John gives you the space, privacy, and comfort that hotels simply cannot match. Whether you are planning a romantic getaway for two, a family vacation, or a large group celebration, Seaview Homes has the perfect villa for your needs. Our portfolio ranges from cozy one-bedroom retreats to grand five-bedroom estates, each one handpicked for its location, views, and amenities.</p>
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Why Rent a Villa on St. John?</h3>
+                <p style="margin-bottom: 1.5rem;">A private villa gives you your own pool, full kitchen, outdoor living spaces, and the freedom to set your own schedule. Unlike a hotel room, a villa feels like your home in paradise. You can cook breakfast with local mangoes, grill fresh-caught fish on your deck, and watch the sunset from your own private terrace. Many of our villas offer direct ocean views and some even have direct beach access.</p>
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Best Beaches Near Our Villas</h3>
+                <p style="margin-bottom: 1.5rem;">St. John is home to some of the most celebrated beaches in the world. Trunk Bay, with its famous underwater snorkeling trail, is regularly voted one of the most beautiful beaches on Earth. Cinnamon Bay offers soft sand and gentle waves perfect for families. Maho Bay is known for its sea turtles and calm waters. Honeymoon Beach, accessible by a short hike or boat, offers secluded tranquility. Saltpond Bay on the south shore provides excellent snorkeling and dramatic coastal hikes.</p>
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Getting to St. John</h3>
+                <p style="margin-bottom: 1.5rem;">St. John is accessible via a 20-minute ferry ride from St. Thomas, which has direct flights from many U.S. cities. Fly into Cyril E. King Airport (STT) on St. Thomas, take a taxi to Red Hook or Charlotte Amalie, and catch the ferry to Cruz Bay, St. John. Once on St. John, a rental jeep is the best way to explore the island's rugged roads and hidden beaches. We can help arrange car rentals and airport transfers as part of your villa booking.</p>
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem;">St. John Weather and Best Time to Visit</h3>
+                <p style="margin-bottom: 1.5rem;">St. John enjoys warm tropical weather year-round with temperatures averaging 80 to 88 degrees. The high season runs from December through April when the weather is driest and most comfortable. Summer and fall offer lower rates and fewer crowds, though hurricane season runs from June through November. The shoulder seasons of May and late November offer excellent value with warm weather and smaller crowds.</p>
+            </div>
+        </section>
+
     </main>
 
     <footer>
@@ -191,6 +288,8 @@
                 <a href="villas.html">Villas</a>
                 <a href="about.html">About</a>
                 <a href="things-to-do.html">Things To Do</a>
+                <a href="services.html">Services</a>
+                <a href="faq.html">FAQ</a>
                 <a href="contact.html">Contact</a>
             </div>
             <div class="footer-social">
@@ -204,7 +303,8 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.417 2.561-5.417 5.211 0 1.033.397 2.143.895 2.745.099.12.112.225.083.348-.09.375-.293 1.199-.334 1.367-.053.223-.175.271-.402.165-1.499-.698-2.436-2.895-2.436-4.658 0-3.794 2.755-7.281 7.951-7.281 4.176 0 7.421 2.977 7.421 6.958 0 4.154-2.62 7.495-6.253 7.495-1.222 0-2.371-.635-2.765-1.385l-.751 2.862c-.272 1.047-1.007 2.361-1.502 3.162C9.57 23.812 10.779 24 12.017 24c6.621 0 11.988-5.367 11.988-11.987C24.005 5.367 18.638 0 12.017 0z"/></svg>
                 </a>
             </div>
-            <p>&copy; 2026 Seaview Homes. All rights reserved.</p>
+            <p>Seaview Vacation Homes, Inc. | 5000 Estate Enighed, PMB # 350, St. John VI 00830 | Toll-Free: 1-888-625-2963 | Local: 1-340-776-6805 | Fax: 1-340-779-4349 | info@seaviewhomes.com</p>
+            <p>&copy; 2026 Seaview Vacation Homes, Inc. All rights reserved.</p>
         </div>
     </footer>
 

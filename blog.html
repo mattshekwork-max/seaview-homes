@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St. John Travel Blog | Seaview Homes USVI</title>
+    <meta name="description" content="St. John USVI travel guides, tips, and local insights. Beaches, hiking, dining, ferry schedules, packing lists, and insider advice from 40 years on the island.">
+    <meta name="keywords" content="St John travel guide, St John USVI blog, things to do St John, St John beaches, St John hiking, USVI travel tips, St John vacation planning">
+    <link rel="canonical" href="https://seaviewhomes.com/blog">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="St. John Travel Blog | Seaview Homes USVI">
+    <meta property="og:description" content="Travel guides, tips, and local insights for St. John, USVI from 40 years on the island.">
+    <meta property="og:image" content="https://seaviewhomes.com/assets/img/hero/trunk-bay.webp">
+    <meta property="og:url" content="https://seaviewhomes.com/blog.html">
+    <meta property="og:type" content="website">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLHXWEGPN2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CLHXWEGPN2');
+    </script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .blog-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .blog-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+        }
+        .blog-card-img {
+            height: 220px;
+            overflow: hidden;
+        }
+        .blog-card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .blog-card:hover .blog-card-img img {
+            transform: scale(1.05);
+        }
+        .blog-card-body {
+            padding: 1.5rem;
+        }
+        .blog-card-category {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-primary);
+            margin-bottom: 0.5rem;
+        }
+        .blog-card-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+        .blog-card-title a {
+            color: var(--color-text);
+            text-decoration: none;
+        }
+        .blog-card-title a:hover {
+            color: var(--color-primary);
+        }
+        .blog-card-excerpt {
+            color: var(--color-text-light);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+        .blog-card-meta {
+            font-size: 0.8rem;
+            color: var(--color-text-light);
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+        .blog-card-meta span {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        @media (max-width: 768px) {
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">Seaview Homes</a>
+            <button class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="villas.html" class="nav-link">Villas</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="things-to-do.html" class="nav-link">Things To Do</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero" style="height: 40vh; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.45)), url('assets/img/virgin-islands-national-park/national-park-1.jpeg') center/cover no-repeat;">
+            <div class="hero-content container">
+                <h1>St. John Travel Guide</h1>
+                <p style="color: white;">Local insights, tips, and stories from 40 years on the island.</p>
+            </div>
+        </section>
+
+        <!-- Blog Grid -->
+        <section style="padding: 4rem 0;">
+            <div class="container">
+                <div class="blog-grid">
+
+                    <article class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="assets/img/trunk-bay/trunk-bay-1.jpeg" alt="Trunk Bay St. John beach aerial view">
+                        </div>
+                        <div class="blog-card-body">
+                            <span class="blog-card-category">Beaches</span>
+                            <h2 class="blog-card-title"><a href="blog/best-beaches-st-john.html">The 7 Best Beaches in St. John, USVI</a></h2>
+                            <p class="blog-card-excerpt">From the world-famous Trunk Bay to hidden coves only locals know, here's our complete guide to the most beautiful beaches on St. John.</p>
+                            <div class="blog-card-meta">
+                                <span>📅 Jul 2026</span>
+                                <span>⏱ 8 min read</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="assets/img/hero/img-1172.webp" alt="Ferry boat arriving at St. John from St. Thomas">
+                        </div>
+                        <div class="blog-card-body">
+                            <span class="blog-card-category">Travel Tips</span>
+                            <h2 class="blog-card-title"><a href="blog/getting-to-st-john-ferry-guide.html">Getting to St. John: The Complete Ferry Guide</a></h2>
+                            <p class="blog-card-excerpt">No airport on St. John means you'll arrive by ferry. Here's everything you need to know about schedules, fares, car barges, and insider tips.</p>
+                            <div class="blog-card-meta">
+                                <span>📅 Jul 2026</span>
+                                <span>⏱ 6 min read</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="assets/img/hero/img-1165.webp" alt="St. John villa with ocean view">
+                        </div>
+                        <div class="blog-card-body">
+                            <span class="blog-card-category">Vacation Planning</span>
+                            <h2 class="blog-card-title"><a href="blog/st-john-packing-list.html">St. John Packing List: What to Bring for Your Villa Vacation</a></h2>
+                            <p class="blog-card-excerpt">Everything you need (and nothing you don't) for a week in a St. John villa. From reef-safe sunscreen to kitchen essentials.</p>
+                            <div class="blog-card-meta">
+                                <span>📅 Jul 2026</span>
+                                <span>⏱ 5 min read</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="assets/img/virgin-islands-national-park/national-park-2.webp" alt="Hiking trail in Virgin Islands National Park St. John">
+                        </div>
+                        <div class="blog-card-body">
+                            <span class="blog-card-category">Activities</span>
+                            <h2 class="blog-card-title"><a href="blog/things-to-do-st-john-beyond-beach.html">15 Things to Do in St. John Beyond the Beach</a></h2>
+                            <p class="blog-card-excerpt">Hiking trails, snorkeling spots, historic ruins, local markets, and sunset spots. Here's what to do when you need a break from the sand.</p>
+                            <div class="blog-card-meta">
+                                <span>📅 Jul 2026</span>
+                                <span>⏱ 10 min read</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="blog-card">
+                        <div class="blog-card-img">
+                            <img src="assets/img/hero/img-1191.webp" alt="St. John USVI scenic ocean view">
+                        </div>
+                        <div class="blog-card-body">
+                            <span class="blog-card-category">Travel Planning</span>
+                            <h2 class="blog-card-title"><a href="blog/best-time-to-visit-st-john.html">Best Time to Visit St. John: Month-by-Month Guide</a></h2>
+                            <p class="blog-card-excerpt">Weather, crowds, prices, and events throughout the year. Find out when to book for the perfect balance of sunshine and solitude.</p>
+                            <div class="blog-card-meta">
+                                <span>📅 Jul 2026</span>
+                                <span>⏱ 7 min read</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section style="background: linear-gradient(rgba(0,30,60,0.5), rgba(0,50,100,0.6)), url('assets/img/hero/img-1184.webp') center/cover no-repeat; padding: 5rem 0; text-align: center;">
+            <div class="container">
+                <h2 style="color: white; margin-bottom: 1rem; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">Ready for Your St. John Getaway?</h2>
+                <p style="color: rgba(255,255,255,0.9); font-size: 1.15rem; margin-bottom: 2rem; text-shadow: 0 1px 5px rgba(0,0,0,0.3);">Browse our collection of luxury villas and book direct.</p>
+                <a href="villas.html" class="btn" style="background: var(--color-accent); color: var(--color-primary); font-size: 1.1rem; padding: 1.1rem 2.5rem;">View Villas</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h3>Seaview Homes</h3>
+                <p>Luxury villa rentals on St. John, USVI since 1986.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Explore</h4>
+                <a href="villas.html">Our Villas</a>
+                <a href="blog.html">Travel Blog</a>
+                <a href="things-to-do.html">Things To Do</a>
+                <a href="about.html">About Us</a>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <a href="contact.html">Contact Us</a>
+                <p>1-340-776-6805</p>
+                <p>info@seaviewhomes.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Seaview Homes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

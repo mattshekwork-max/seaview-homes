@@ -4,18 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | Seaview Homes Luxury Villas St. John</title>
-    <meta name="description" content="Get in touch with Seaview Homes to book your luxury villa in St. John. Professional concierge service and seamless booking.">
-    <!-- Open Graph -->
+    <meta name="description" content="Contact Seaview Homes to book your luxury villa in St. John, USVI. Call 1-340-776-6805 or email info@seaviewhomes.com. Professional concierge service since 1986.">
+    <meta name="keywords" content="contact Seaview Homes, St John villa booking, St John villa rental contact, book villa St John USVI">
     <meta property="og:title" content="Contact Us | Seaview Homes Luxury Villas St. John">
-    <meta property="og:description" content="Get in touch with Seaview Homes to book your luxury villa in St. John. Professional concierge service and seamless booking.">
+    <meta property="og:description" content="Contact Seaview Homes to book your luxury villa in St. John. Professional concierge service since 1986.">
     <meta property="og:url" content="https://seaviewhomes.com/contact">
     <meta property="og:type" content="website">
-    <!-- Twitter -->
+    <meta property="og:site_name" content="Seaview Homes">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contact Us | Seaview Homes Luxury Villas St. John">
-    <meta name="twitter:description" content="Get in touch with Seaview Homes to book your luxury villa in St. John.">
+    <meta name="twitter:description" content="Contact Seaview Homes to book your luxury villa in St. John.">
     <link rel="canonical" href="https://seaviewhomes.com/contact">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CLHXWEGPN2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-CLHXWEGPN2');
+    </script>
+    
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Schema.org ContactPage + LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Seaview Homes",
+      "url": "https://seaviewhomes.com/contact",
+      "mainEntity": {
+        "@type": "LocalBusiness",
+        "name": "Seaview Vacation Homes, Inc.",
+        "telephone": "+1-888-625-2963",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+1-340-776-6805",
+          "contactType": "reservations"
+        },
+        "faxNumber": "+1-340-779-4349",
+        "email": "info@seaviewhomes.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "5000 Estate Enighed, PMB # 350",
+          "addressLocality": "St. John",
+          "addressRegion": "VI",
+          "postalCode": "00830",
+          "addressCountry": "US"
+        },
+        "url": "https://seaviewhomes.com",
+        "openingHours": "Mo-Su 08:00-17:00"
+      }
+    }
+    </script>
 </head>
 <body>
     <header>
@@ -27,15 +69,18 @@
             <nav class="nav-menu">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="villas.html" class="nav-link">Villas</a>
+                <a href="blog.html" class="nav-link">Blog</a>
                 <a href="about.html" class="nav-link">About</a>
                 <a href="things-to-do.html" class="nav-link">Things To Do</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="faq.html" class="nav-link">FAQ</a>
                 <a href="contact.html" class="nav-link">Contact</a>
             </nav>
         </div>
     </header>
 
     <main>
-        <section class="hero" style="height: 40vh;">
+        <section class="hero" style="height: 40vh; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.45)), url('assets/img/hero/img-1168.webp') center/cover no-repeat;">
             <div class="hero-content container">
                 <h1>Contact Our Concierge</h1>
             </div>
@@ -51,15 +96,17 @@
                         <p>Reach out to our team for personalized booking assistance and concierge services.</p>
                     </div>
                     <div style="margin-bottom: 3rem;">
-                        <p><strong>Email:</strong> info@seaviewhomes.com</p>
-                        <p><strong>Phone:</strong> +1 (340) 555-0123</p>
-                        <p><strong>Location:</strong> Cruz Bay, St. John, US Virgin Islands</p>
+                        <p><strong>Toll-Free:</strong> <a href="tel:+18886252963">1-888-625-2963</a></p>
+                        <p><strong>Local:</strong> <a href="tel:+13407766805">1-340-776-6805</a></p>
+                        <p><strong>Fax:</strong> 1-340-779-4349</p>
+                        <p><strong>Email:</strong> <a href="mailto:info@seaviewhomes.com">info@seaviewhomes.com</a></p>
+                        <p><strong>Address:</strong> 5000 Estate Enighed, PMB # 350, St. John VI 00830</p>
                     </div>
                 </div>
 
                 <!-- Form -->
                 <div class="villa-card" style="padding: 2rem; background: white; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
-                    <form action="/placeholder-endpoint" method="POST">
+                    <form action="mailto:info@seaviewhomes.com" method="POST" enctype="text/plain">
                         <div class="form-group">
                             <label for="name">Full Name</label>
                             <input type="text" id="name" name="name" placeholder="John Doe" required>
@@ -82,10 +129,20 @@
                             <label for="villa">Interested Villa</label>
                             <select id="villa" name="villa">
                                 <option value="any">Any Villa</option>
-                                <option value="azure-horizon">Azure Horizon</option>
-                                <option value="sandalwood-sanctuary">Sandalwood Sanctuary</option>
-                                <option value="the-palms-estate">The Palms Estate</option>
-                                <option value="sirens-cove">Siren's Cove</option>
+                                <option value="villa-splendore">Villa Splendore</option>
+                                <option value="surfside">Surfside</option>
+                                <option value="seaside-breeze">Seaside Breeze</option>
+                                <option value="cinnamon-ridge">Cinnamon Ridge</option>
+                                <option value="rainbow-beach-house">Rainbow Beach House</option>
+                                <option value="island-rider">Island Rider</option>
+                                <option value="mango-bay">Mango Bay</option>
+                                <option value="mystical-mermaid">Mystical Mermaid</option>
+                                <option value="reef-break-vista">Reef Break Vista</option>
+                                <option value="rhapsody">Rhapsody</option>
+                                <option value="sea-forever">Sea Forever</option>
+                                <option value="solemare">Solemare</option>
+                                <option value="vista-caribe">Vista Caribe</option>
+                                <option value="waterfall">Waterfall</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -106,6 +163,8 @@
                 <a href="villas.html">Villas</a>
                 <a href="about.html">About</a>
                 <a href="things-to-do.html">Things To Do</a>
+                <a href="services.html">Services</a>
+                <a href="faq.html">FAQ</a>
                 <a href="contact.html">Contact</a>
             </div>
             <div class="footer-social">
@@ -119,7 +178,8 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.417 2.561-5.417 5.211 0 1.033.397 2.143.895 2.745.099.12.112.225.083.348-.09.375-.293 1.199-.334 1.367-.053.223-.175.271-.402.165-1.499-.698-2.436-2.895-2.436-4.658 0-3.794 2.755-7.281 7.951-7.281 4.176 0 7.421 2.977 7.421 6.958 0 4.154-2.62 7.495-6.253 7.495-1.222 0-2.371-.635-2.765-1.385l-.751 2.862c-.272 1.047-1.007 2.361-1.502 3.162C9.57 23.812 10.779 24 12.017 24c6.621 0 11.988-5.367 11.988-11.987C24.005 5.367 18.638 0 12.017 0z"/></svg>
                 </a>
             </div>
-            <p>&copy; 2026 Seaview Homes. All rights reserved.</p>
+            <p>Seaview Vacation Homes, Inc. | 5000 Estate Enighed, PMB # 350, St. John VI 00830 | Toll-Free: 1-888-625-2963 | Local: 1-340-776-6805 | Fax: 1-340-779-4349 | info@seaviewhomes.com</p>
+            <p>&copy; 2026 Seaview Vacation Homes, Inc. All rights reserved.</p>
         </div>
     </footer>
     <script src="js/main.js" defer></script>

@@ -1,0 +1,105 @@
+{
+  "villa-splendore": {
+    "beds": 3,
+    "baths": "2.5",
+    "sleeps": 6,
+    "location": "Estate Chocolate Hole and Great Cruz Bay, Saint John, USVI",
+    "description": "Renovated in 2016 - all new furniture throughout, appliances, electronics, kitchen appliances, countertops - fans, etc. Located on the ocean side of Maria Bluff with fabulous Western exposure from 375 ft above the ocean ensuring sunsets all year long, great views of St Thomas, St. Croix, the southern cays, all of Pillsbury Sound, and the northern cays. Two identical king suites with A/C and large baths with stunning garden showers. Also an air-conditioned cupola den/bedroom with spiral staircase access and a king or (2) twins with a 1/2 bath on the main level. Pool 10X30 with charming fountain. 9 min drive to town, 12-15 min to North Shore beaches.",
+    "photos_folder": "uploads/9",
+    "photos": ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+    "rates": {
+      "in_season_2025": "$6643/wk for 2-6 people (Jan 6 - Apr 15, 2025)",
+      "off_season_2025": "$4543/wk for 2-6 people (Apr 16 - Dec 15, 2025)",
+      "thanksgiving": "$4865/wk 2-6 people (Nov 22-30, 2025)",
+      "christmas": "$7455/wk for 2-6 people (Dec 16, 2025 - Jan 8, 2026)",
+      "in_season_2026": "$6643/wk for 2-6 people (Jan 6 - Apr 15, 2026)"
+    },
+    "amenities": ["Swimming pool","Internet","Air Conditioning","Hot Tub","TV","Satellite or cable","Washer & Dryer","Parking","No Smoking","Telephone","Linens Provided","Towels Provided","Wireless Internet","Iron & Board","Hair Dryer","Living Room","Dishwasher","Refrigerator","Stove","Microwave","Grill","Coffee Maker","Toaster","Blender","Outdoor Dining","Weber Grill"],
+    "house_rules": ["Check-in: 3:00 PM / Check-out: 10:00 AM","No parties/events","No smoking","No pets","Max guests: 6","Children Ages 8 and up welcome"],
+    "fees": "12.5% hotel tax/5% service charge, $59 non-refundable damage waiver, Pre-paid refundable $1000 damage deposit"
+  },
+  "oceanport-villa": {
+    "status": "NO LONGER ACTIVE - REMOVE FROM SITE",
+    "beds": 4,
+    "baths": 4,
+    "sleeps": 8
+  },
+  "southern-exposure": {
+    "beds": 3,
+    "baths": 3,
+    "sleeps": 6,
+    "location": "Fish Bay, Cruz Bay, St John, USVI",
+    "description": "3 bedroom villa with three baths, located in Fish Bay on the south shore, quick 12-minute drive to Cruz Bay. Upstairs/downstairs layout with two separate communal living areas and large decks. Raised deck pool surrounded by native stone and coral walls with colorful bougainvillea, allemande flowers, hibiscus and palm trees. Panoramic St. John ocean views and trade wind breezes. Second lower-level covered deck for dining off the lower family room. New colossal deck area for grilling and lounging. Master bedroom has private deck.",
+    "photos_folder": "uploads/15",
+    "photos": ["1.jpg","2.jpg","3.jpg","6.jpg","7.jpg","8.jpg"],
+    "rates": {
+      "in_season": "2 per. $3850/wk, 3-4 per. $4200/wk, 5-6 per. $4550/wk (Jan 4 - April 15)",
+      "off_season": "2 per. $2800/wk, 3-4 per. $3150/wk, 5-6 per. $3500/wk (April 16 - Dec 18)",
+      "holiday": "$6000/wk + 12.5% Tax (Dec 19 - Jan 3)"
+    },
+    "amenities": ["Air Conditioning","Satellite or Cable","TV","Washer & Dryer","Children Welcome","Internet","Parking","Swimming pool","Telephone","Linens Provided","Towels Provided","Wireless Internet","Iron & Board","Hair Dryer","Shampoo","Basic Soaps","Toilet Paper","Living Room","Paper Towels","Dishwasher","Refrigerator","Stove","Oven","Microwave","Grill","Coffee Maker","Toaster","Blender","Dining Room","Dining Table (Seating for 6)","Outdoor Pool","Private Pool","Beach Chairs","Beach Towels","Deck / Patio","Outdoor Furniture"],
+    "house_rules": ["Check-in: 3:00 PM / Check-out: 10:00 AM","No parties/events","No smoking","No pets","Children allowed","Minimum age of primary renter: 25","Max guests: 6"],
+    "fees": "12.5% USVI Hotel Tax, Refundable Security Deposit: $250"
+  },
+  "seaside-breeze": {
+    "beds": 4,
+    "baths": 3,
+    "sleeps": 8,
+    "location": "Coral Bay; 25 minute drive to Cruz Bay",
+    "description": "Spacious beachfront villa added to portfolio in May 2021. Built in 2006, not previously offered for rentals. 3700 sq/ft interior, 1740 sq/ft exterior decks. Floor to ceiling windows with two huge trapezoid windows. Coral stone tiled floors, open floor plan, cedar woodwork. Bluetooth enabled audio system with 8 zoned speakers. Insulated (unusual in St. John). Single best feature: location - just steps from sandy beach and 82 degree Caribbean waters. Swim, snorkel, kayak, paddle board from your front yard.",
+    "photos_folder": "uploads/19",
+    "photos": ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
+    "rates": {
+      "in_season_2025": "$8596/wk for 2-8 people (Jan 6 - Apr 15, 2025), +$40/person/night up to 10",
+      "in_season_2026": "$8750/wk for 2-8 people (Jan 9 - Apr 15, 2026), +$40/person/night up to 10",
+      "off_season": "$6650/wk for 2-8 people (Apr 16 - Dec 15, 2025), +$40/person/night up to 10",
+      "thanksgiving": "$7035/wk for 2-8 (Nov 22-30, 2025)",
+      "christmas": "$10,801/wk for 2-8 (Dec 16, 2025 - Jan 8, 2026)"
+    },
+    "house_rules": ["Check-in: 3:00 PM / Check-out: 10:00 AM"],
+    "fees": "12.5% hotel tax/5% service charge + $400 cleaning fee, $1000 prepaid damage deposit"
+  },
+  "cinnamon-ridge": {
+    "beds": 5,
+    "baths": "5.5",
+    "sleeps": 10,
+    "location": "St John 00830, USVI",
+    "description": "HGTV Caribbean House of the Year 2020. Elegant 5-bedroom 5.5 bath home with pool and hot tub. Completely renovated in 2019. Gated entrance, tropical walkway. Great room with kitchen, living and dining area looking out to Caribbean views. Two primary bedrooms on opposite sides of great room, each with private en-suite bathroom. Interior staircase to lower level with 3 additional guest bedrooms and en-suite bathrooms. Expansive sun deck with private pool, hot tub, covered seating and wet bar with flat screen TV. Heated pool available ($62/day).",
+    "photos_folder": "uploads/21",
+    "photos": ["1.jpg","2.jpg","3.jpg","5.jpg","6.jpg","8.jpg"],
+    "rates": {
+      "in_season_2025": "$14,966/wk for 2-10 people (Jan 9 - Apr 15, 2025)",
+      "off_season_2025": "$11,830/wk for 2-10 people (Apr 16 - Dec 15, 2025)",
+      "thanksgiving_2025": "$14,966/wk for 2-12 people (Nov 22-30, 2025)",
+      "christmas_2025": "$17,955/wk for 2-12 people (Dec 16, 2025 - Jan 8, 2026)",
+      "in_season_2026": "$14,966/wk for 2-10 people (Jan 9 - Apr 15, 2026)",
+      "off_season_2026": "$12,215/wk for 2-12 people (Apr 16 - Dec 15, 2026)",
+      "thanksgiving_2026": "$15,435/wk for 2-12 people (Nov 21-29, 2026)",
+      "christmas_2026": "$18,515/wk for 2-12 people (Dec 16, 2026 - Jan 8, 2027)"
+    },
+    "amenities": ["Smart TVs for streaming","DVD Player","Toaster","Coffeemaker","Blender","Safe for Valuables","BBQ Gas Grill","Washer & Dryer","Outside dining on upper & lower decks","Poolside Bar w/flat screen TV, wine cooler, sink & refrigerator","Beach Chairs","Beach Towels","Beach Cooler","Iron & Ironing Board","Hairdryer","Linens & Bedding","Pool Heater Option ($62/day)"],
+    "fees": "12.5% hotel tax/5% service charge + $450 cleaning fee, $59 non-refundable damage waiver"
+  },
+  "island-rider": {
+    "beds": 4,
+    "baths": 4,
+    "sleeps": 8,
+    "location": "Point Rendezvous, south shore of St. John, above Klein Bay",
+    "description": "Fully renovated villa in exclusive Point Rendezvous enclave. Sprawling verandas overlook Rendezvous Bay and Ditliff Point. Beautifully appointed 4 bedroom home with stone work, modern amenities, solar heated pool and spa. State of the art gourmet kitchen, open dining room, separate media room. Four distinct outdoor seating areas: The Veranda, Courtyard, Pool Deck and Lower Spa Deck. 5 minutes from Cruz Bay.",
+    "rates": "Contact info@seaviewhomes.com for availability"
+  },
+  "surfside": {
+    "beds": 3,
+    "baths": 3,
+    "sleeps": 6,
+    "location": "Oceanfront, 15-18 min drive to Cruz Bay",
+    "description": "Cathedral ceilings, rose tiled floors, rattan furniture. Stereo/CD player, cable HDTV, VCR, DVD player. Two dining locations with ocean views - interior teak table seats 6, outdoor teak table seats 6. Cook's kitchen with marble countertops, farm sink, stainless steel appliances (4-burner dual-fuel stove, refrigerator, dishwasher, microwave). Gas BBQ on patio. All 3 bedrooms similar size with AC and ocean views - main level queen with French doors to small deck, upper king with small deck, lower king off pool deck. Each with adjoining tiled bath and shower.",
+    "rates": {
+      "in_season_2025": "$4,319/wk (2 people) to $5,299/wk (6 people) (Jan 6 - Apr 15, 2025 & Jan 9 - Apr 15, 2026)",
+      "off_season": "$2,772/wk (2 people) to $3,752/wk (6 people) (Apr 16 - Dec 15, 2025)",
+      "thanksgiving": "$3,017/wk (2 people, 1 BR) to $3,997/wk (6 people, 3 BR) (Nov 22-30, 2025)",
+      "christmas": "$6,384/wk for 2-6 people (Dec 16, 2025 - Jan 8, 2026)"
+    },
+    "fees": "12.5% hotel tax/5% service charge, $59 non-refundable damage waiver"
+  }
+}
