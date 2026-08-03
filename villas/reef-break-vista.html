@@ -182,7 +182,8 @@
         <section class="container">
             <div style="max-width: 800px; margin: 0 auto;">
                 <h2>About Reef Break Vista</h2>
-                <p style="font-size: 1.1rem; line-height: 1.8; color: var(--color-text);">Reef Break Vista is an attractive 4-bedroom, 3-bath home with a private pool and a casual Caribbean feel that greets you the moment you walk through the front door. The home is made up of three buildings joined by connecting decks. The centre building holds the main living area — open-plan living, kitchen and dining — with a cabana bedroom and attached bath off each side. A staircase leads down from the main level to the pool and sun deck, and a few more stairs down to a lower sun deck and two further bedrooms connected by a Jack &amp; Jill bathroom. Wherever you stand you'll catch the tropical breezes and views of azure seas and green hillsides, and early risers can watch the sun come up over Ram's Head on the horizon. A well-priced home with an inviting tropical atmosphere — perfect for families, couples, and anyone after a casual Caribbean retreat.</p>
+                <p style="font-size: 1.05rem; line-height: 1.55; color: var(--color-text);">One sunset seen from the sweeping decks of Vista Caribe and you’ll be head over heels. This luxurious island home is the ideal choice if you’re a fan of privacy, comfort, and incomparable Caribbean vistas. In addition to a beautifully appointed great room, expansive modern kitchen, and a laundry list of modern amenities, the villa offers a stunning pool area and an array of plush outdoor living spaces. Three richly furnished bedroom suites are attached to the main house, and a fourth sits detached and includes a kitchenette and seating area.</p>
+                <p style="font-size: 1.05rem; line-height: 1.55; color: var(--color-text);">Vista Caribe is nestled high above Great Cruz Bay in the Virgin Grand Estates, a prestigious residential enclave envied for its gorgeous island breezes and its convenient central location. Just a few minutes of driving and you’ll be enjoying the laid-back bustle of Cruz Bay or the breathtakingly beautiful North Shore beaches.</p>
             </div>
         </section>
 
@@ -222,25 +223,28 @@
         </script>
 
         <!-- Amenities -->
-        <section style="background: var(--color-bg-alt);">
+        <section class="amenities-section">
             <div class="container">
-                <div class="section-title">
-                    <h2>Amenities &amp; Features</h2>
-                    <p>Everything you need for a perfect St. John stay.</p>
-                </div>
-                <div style="max-width: 600px; margin: 0 auto;">
-                    <ul style="padding: 0; margin: 0;">
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Ocean views</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Full kitchen</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Air conditioning</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ WiFi</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ 4 bedrooms</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Parking</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Deck with reef views</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Outdoor shower</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Snorkel gear</li>
-                    <li style="padding: 0.5rem 0; border-bottom: 1px solid #eee; list-style: none;">✓ Board storage</li>
-                    
+                <div class="amenities-panel">
+                    <h2>Property amenities</h2>
+                    <ul>
+                        <li>Waterfront</li>
+                        <li>Beach</li>
+                        <li>Max guests: 10</li>
+                        <li>Bedrooms: 4</li>
+                        <li>Baths: 3</li>
+                        <li>Pool</li>
+                        <li>A/C</li>
+                        <li>Children allowed</li>
+                        <li>Living &amp; dining</li>
+                        <li>Kitchen</li>
+                    </ul>
+                    <h2>Standard amenities</h2>
+                    <ul>
+                        <li>WiFi</li>
+                        <li>Beach access</li>
+                        <li>Outdoor living space</li>
+                        <li>Contact Seaview Homes for current availability</li>
                     </ul>
                 </div>
             </div>
@@ -255,11 +259,13 @@
             </div>
         </section>
 
+        <div style="text-align: center; margin: 2rem 0;"><button class="rates-btn" onclick="document.getElementById('rates-modal-reef-break-vista').classList.add('active')">View Rates</button></div>
+
         <!-- CTA -->
         <section style="background: linear-gradient(rgba(0,30,60,0.5), rgba(0,50,100,0.6)), url('../assets/img/villas/reef-break-vista.webp') center/cover no-repeat; padding: 5rem 0; text-align: center;">
             <div class="container">
                 <h2 style="color: white; margin-bottom: 1rem;">Ready to Book Reef Break Vista?</h2>
-                <p style="color: rgba(255,255,255,0.85); font-size: 1.15rem; margin-bottom: 2rem;">Call us toll-free at 1-888-625-2963 or 1-340-776-6805, or send a message. We respond within 24 hours.</p>
+                <p style="color: rgba(255,255,255,0.85); font-size: 1.15rem; margin-bottom: 2rem;">Call us at 1-340-776-6805 or send a message. We respond within 24 hours.</p>
                 <a href="../contact.html" class="btn" style="background: var(--color-accent); color: var(--color-primary); font-size: 1.1rem; padding: 1.1rem 2.5rem;">Contact Us</a>
             </div>
         </section>
@@ -279,6 +285,22 @@
                 <a href="../villas.html" class="btn btn-primary">View All Villas</a>
             </div>
         </section>
+        <div class="rates-modal-overlay" id="rates-modal-reef-break-vista" onclick="if(event.target===this)this.classList.remove('active')">
+            <div class="rates-modal">
+                <button class="rates-modal-close" onclick="this.closest('.rates-modal-overlay').classList.remove('active')">&times;</button>
+                <h2>Reef Break Vista — Rates</h2>
+                <table class="rates-table">
+                    <thead><tr><th>Season</th><th>Rates</th></tr></thead>
+                    <tbody>
+                        <tr><td>In Season (Jan. 6, 2025 - April 15, 2025)</td><td>$3,955/wk for 2 people; $4,200/wk for 3; $4,445/wk for 4; $4,690/wk for 5; $4,935/wk for 6; $5,180/wk for 7; $5,425/wk for 8; $5,670/wk for 9; $5,915/wk for 10</td></tr>
+                        <tr><td>Off Season (April 16, 2025 - Dec. 15, 2025)</td><td>$2,345/wk for 2 people; $2,590/wk for 3; $2,835/wk for 4; $3,080/wk for 5; $3,325/wk for 6; $3,570/wk for 7; $3,815/wk for 8; $4,060/wk for 9; $4,305/wk for 10</td></tr>
+                        <tr><td>Thanksgiving (Nov. 22 - 30, 2025)</td><td>$2,850-$4,795/wk by occupancy</td></tr>
+                        <tr><td>Christmas/New Years (Dec. 16, 2025 - Jan. 8, 2026)</td><td>$8,190/wk for 2-10 people</td></tr>
+                    </tbody>
+                </table>
+                <div class="rates-fees">12.5% hotel tax / 5% service charge + $300 cleaning fee<br>$59 non-refundable damage waiver<br>Add 10% to Thanksgiving and President&#39;s Weeks</div>
+            </div>
+        </div>
     </main>
 
     <footer>
@@ -303,7 +325,7 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.417 2.561-5.417 5.211 0 1.033.397 2.143.895 2.745.099.12.112.225.083.348-.09.375-.293 1.199-.334 1.367-.053.223-.175.271-.402.165-1.499-.698-2.436-2.895-2.436-4.658 0-3.794 2.755-7.281 7.951-7.281 4.176 0 7.421 2.977 7.421 6.958 0 4.154-2.62 7.495-6.253 7.495-1.222 0-2.371-.635-2.765-1.385l-.751 2.862c-.272 1.047-1.007 2.361-1.502 3.162C9.57 23.812 10.779 24 12.017 24c6.621 0 11.988-5.367 11.988-11.987C24.005 5.367 18.638 0 12.017 0z"/></svg>
                 </a>
             </div>
-            <p>Seaview Vacation Homes, Inc. | 5000 Estate Enighed, PMB # 350, St. John VI 00830 | Toll-Free: 1-888-625-2963 | Local: 1-340-776-6805 | Fax: 1-340-779-4349 | info@seaviewhomes.com</p>
+            <p>Seaview Vacation Homes, Inc. | 5000 Estate Enighed, PMB # 350, St. John VI 00830 | Phone: 1-340-776-6805 | info@seaviewhomes.com</p>
             <p>&copy; 2026 Seaview Vacation Homes, Inc. All rights reserved.</p>
         </div>
     </footer>
