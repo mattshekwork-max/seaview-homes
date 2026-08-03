@@ -13,37 +13,17 @@ villas = [
         "slug": "villa-splendore",
         "name": "Villa Splendore",
         "image": "villa-splendore.jpg",
-        "rooms": 1, "baths": 1,
+        "rooms": 3, "baths": "2.5", "sleeps": 6,
         "type": "Hillside Romantic Retreat",
         "short_desc": "Romantic 1-bedroom hillside villa with plunge pool and panoramic ocean views in St. John, USVI.",
         "description": "Nestled on a lush hillside overlooking the sparkling Caribbean Sea, Villa Splendore offers the perfect romantic escape in St. John, USVI. This intimate 1-bedroom villa combines modern luxury with breathtaking natural beauty. Wake up to panoramic views of the ocean and surrounding hills, then spend your days relaxing by your private plunge pool or exploring the pristine beaches of St. John just minutes away. The open-air design lets the tropical breeze flow through the living spaces, creating an unforgettable island experience. Villa Splendore is ideally situated near Cruz Bay, giving you easy access to dining, shopping, and the ferry to St. Thomas while maintaining total privacy and tranquility. Trunk Bay, voted one of the most beautiful beaches in the world, is just a short drive away.",
         "amenities": ["Private plunge pool", "Full kitchen", "Air conditioning", "WiFi", "Ocean view", "Parking", "Outdoor shower", "King bed"]
     },
     {
-        "slug": "oceanport-villa",
-        "name": "Oceanport Villa",
-        "image": "oceanport-villa.jpg",
-        "rooms": 4, "baths": 4,
-        "type": "Oceanfront Luxury Estate",
-        "short_desc": "Spectacular 4-bedroom oceanfront villa with infinity pool and direct beach access on St. John's north shore.",
-        "description": "Oceanport Villa is a spectacular 4-bedroom oceanfront estate located on the north shore of St. John. With direct beach access and an expansive infinity pool that appears to merge with the sea, this luxury villa is perfect for families or groups seeking the ultimate Caribbean getaway. The open-concept living area features floor-to-ceiling windows framing the turquoise waters, while the gourmet kitchen is equipped for everything from casual breakfasts to elegant dinner parties. Each bedroom offers ocean views and private en-suite bathrooms. Enjoy world-class snorkeling right from your doorstep at nearby Trunk Bay and Cinnamon Bay. The Virgin Islands National Park hiking trails are minutes away. Oceanport Villa embodies the best of St. John luxury living.",
-        "amenities": ["Infinity pool", "Direct beach access", "Gourmet kitchen", "Air conditioning", "WiFi", "4 en-suite bedrooms", "Parking", "Outdoor dining area", "Snorkel gear provided"]
-    },
-    {
-        "slug": "southern-exposure",
-        "name": "Southern Exposure",
-        "image": "southern-exposure.jpg",
-        "rooms": 1, "baths": 1,
-        "type": "Secluded Romantic Escape",
-        "short_desc": "Private 1-bedroom secluded villa with stunning southern views and sunset vistas in St. John, USVI.",
-        "description": "Southern Exposure is a private 1-bedroom villa tucked away in one of St. John's most secluded neighborhoods. Designed for couples seeking total serenity, this intimate retreat offers stunning southern views and unforgettable sunset vistas over the Caribbean Sea. The villa's architecture blends indoor and outdoor living, with a spacious deck perfect for sunset cocktails and stargazing. Though private and peaceful, Southern Exposure is just a 10-minute drive from Cruz Bay's restaurants and shops. The nearby south shore beaches offer excellent swimming and some of the best snorkeling on the island. For couples looking to disconnect and experience the natural beauty of St. John, Southern Exposure is the ultimate hideaway.",
-        "amenities": ["Private deck", "Full kitchen", "Air conditioning", "WiFi", "Sunset views", "Parking", "Outdoor shower", "Queen bed", "Beach chairs provided"]
-    },
-    {
         "slug": "surfside",
         "name": "Surfside",
         "image": "surfside.jpg",
-        "rooms": 3, "baths": 3,
+        "rooms": 3, "baths": 3, "sleeps": 6,
         "type": "Oceanfront Family Villa",
         "short_desc": "3-bedroom oceanfront villa perfect for families, with pool and easy beach access in St. John, USVI.",
         "description": "Surfside is a welcoming 3-bedroom oceanfront villa designed with families in mind. Located on St. John's beautiful north shore, this villa offers easy access to some of the Caribbean's most celebrated beaches including Trunk Bay, Cinnamon Bay, and Maho Bay. The spacious living area opens to a large pool deck with panoramic ocean views, making it easy to keep an eye on the kids while relaxing in comfort. Each bedroom is air-conditioned with its own bathroom, ensuring privacy for everyone. The fully equipped kitchen makes meal prep a breeze, and the outdoor grill is perfect for evening barbecues. Surfside combines the comforts of home with the beauty of a St. John oceanfront location.",
@@ -53,7 +33,7 @@ villas = [
         "slug": "seaside-breeze",
         "name": "Seaside Breeze",
         "image": "seaside-breeze.jpg",
-        "rooms": 2, "baths": 2,
+        "rooms": 4, "baths": 3, "sleeps": 8,
         "type": "Hillside Panoramic Villa",
         "short_desc": "2-bedroom hillside villa with panoramic ocean views and cooling trade winds in St. John, USVI.",
         "description": "Seaside Breeze is a charming 2-bedroom hillside villa that lives up to its name with constant cooling trade winds and panoramic views of the Caribbean Sea. Perched above Cruz Bay, this villa offers the perfect balance of convenience and tranquility. You're just minutes from town yet worlds away in your private hillside retreat. The villa features an open-air great room that flows seamlessly to the pool deck, where you can watch sailboats navigate the channel between St. John and St. Thomas. Both bedrooms offer comfortable accommodations with ocean views. Seaside Breeze is ideal for small families or two couples traveling together who want to experience the best of St. John without breaking the budget.",
@@ -63,7 +43,7 @@ villas = [
         "slug": "cinnamon-ridge",
         "name": "Cinnamon Ridge",
         "image": "cinnamon-ridge.jpg",
-        "rooms": 2, "baths": 2,
+        "rooms": 5, "baths": "5.5", "sleeps": 10,
         "type": "Near-Beach Bright Villa",
         "short_desc": "Bright and airy 2-bedroom villa just steps from Cinnamon Bay Beach in St. John, USVI.",
         "description": "Cinnamon Ridge is a bright and airy 2-bedroom villa located just moments from one of St. John's most beloved beaches, Cinnamon Bay. This inviting villa is perfect for beach lovers who want to be close to the action while enjoying the privacy of their own space. The interior is filled with natural light and decorated in a casual Caribbean style. The covered porch offers a relaxing spot for morning coffee or evening sunsets. Cinnamon Bay Beach, with its soft white sand and excellent snorkeling, is just a short walk or drive away. The nearby Cinnamon Bay Campground offers kayak rentals and a small cafe. For those wanting to explore further, the Virgin Islands National Park visitor center is close by.",
@@ -73,7 +53,7 @@ villas = [
         "slug": "rainbow-beach-house",
         "name": "Rainbow Beach House",
         "image": "rainbow-beach-house.jpg",
-        "rooms": 2, "baths": 2,
+        "rooms": 4, "baths": 4, "sleeps": 8,
         "type": "Beachfront Colorful Villa",
         "short_desc": "Vibrant 2-bedroom beachfront villa with direct sand access and colorful Caribbean decor in St. John.",
         "description": "Rainbow Beach House is a vibrant and joyful 2-bedroom beachfront villa that captures the colorful spirit of the Caribbean. With direct access to a quiet stretch of sand, this villa is a beach lover's dream. The interior is decorated with bright island colors and local artwork, creating a fun and relaxed atmosphere. The open kitchen and living area flow right out to the beach deck, where you can spend your days swimming, sunbathing, or watching the spectacular St. John sunsets. Both bedrooms are air-conditioned and comfortably appointed. Rainbow Beach House is perfect for a small family or couples who want a true toes-in-the-sand St. John experience without the luxury price tag.",
@@ -83,7 +63,7 @@ villas = [
         "slug": "solemare",
         "name": "Solemare",
         "image": "solemare.jpg",
-        "rooms": 3, "baths": 3,
+        "rooms": 3, "baths": "3.5", "sleeps": 8,
         "type": "Elegant Oceanview Villa",
         "short_desc": "Elegant 3-bedroom oceanview villa with pool and sophisticated design in St. John, USVI.",
         "description": "Solemare is an elegant 3-bedroom villa perched on a hillside with sweeping ocean views on St. John's south shore. The name means 'sun and sea' in Italian, and this villa delivers on that promise. The sophisticated design features clean lines, natural materials, and expansive glass walls that blur the boundary between inside and out. The infinity-edge pool seems to drop into the ocean below. Each of the three bedrooms is a private retreat with en-suite bathroom and ocean views. Solemare is perfect for a group of friends or a multi-generational family seeking a refined St. John experience. The south shore location offers a quieter alternative to the north shore while still being close to Cruz Bay and Coral Bay's dining and shopping.",
@@ -93,17 +73,17 @@ villas = [
         "slug": "mystical-mermaid",
         "name": "Mystical Mermaid",
         "image": "mystical-mermaid.jpg",
-        "rooms": 3, "baths": 3,
-        "type": "Waterfront Whimsical Villa",
-        "short_desc": "Unique 3-bedroom waterfront villa with whimsical decor and incredible marine life viewing in St. John.",
-        "description": "Mystical Mermaid is a one-of-a-kind 3-bedroom waterfront villa that celebrates the magic of Caribbean sea life. Situated on a rocky shoreline on St. John's east end, this villa offers front-row seats to an underwater parade of tropical fish, sea turtles, and occasionally dolphins. The whimsical decor features mermaid-themed artwork and ocean-inspired touches throughout. Each bedroom is uniquely decorated with its own personality. The highlight is the natural pool carved into the shoreline, allowing you to swim in the ocean in a protected, calm environment. Excellent snorkeling is available right from the villa. Mystical Mermaid is perfect for families or groups who want a truly unique St. John waterfront experience.",
-        "amenities": ["Waterfront location", "Natural swimming pool", "Full kitchen", "Air conditioning", "WiFi", "3 bedrooms", "Parking", "Snorkeling from property", "Outdoor deck"]
+        "rooms": 2, "baths": 2, "sleeps": 4,
+        "type": "Luxury Stone Villa",
+        "short_desc": "Unique luxury stone villa close to beaches with whimsical decor and mountain views in St. John.",
+        "description": "Welcome home to Mystical Mermaid, a consistently 5-star rated villa close to St. John's world-famous beaches. This luxury stone villa has been tastefully updated in today's Caribbean colours and finished to the highest standards, with two interior bedrooms, two baths, and a salt water pool and hot tub looking out to mountain views. The owner's suite has a king bed, A/C, satellite TV and a large ensuite bathroom; the second bedroom has two twin beds that convert to a king, A/C and its own ensuite. The open floor plan takes in the kitchen, living and dining rooms — the kitchen fully equipped with top-end appliances, cookware, glassware and dishes, the dining room seating six, and the living room comfortably seating six with A/C, an entertainment centre and WiFi. The pool veranda opens off the living room, dining room and owner's suite, with ample outdoor seating around the pool and its mermaid fountain. The villa is surrounded by lush gardens and Bismarckia palms, with a pillared stone entry and a large flat turnaround car park for several jeeps.",
+        "amenities": ["Salt water pool & hot tub", "Mountain views", "Lush gardens", "Full kitchen", "Air conditioning", "WiFi", "2 bedrooms", "Parking", "Outdoor deck"]
     },
     {
         "slug": "island-rider",
         "name": "Island Rider",
-        "image": "island-rider.jpg",
-        "rooms": 4, "baths": 4,
+        "image": "villa-photos/island-rider/Rider1.jpg",
+        "rooms": 4, "baths": 6, "sleeps": 8,
         "type": "Spacious Hillside Villa",
         "short_desc": "Spacious 4-bedroom hillside villa with pool and panoramic views of St. John and surrounding islands.",
         "description": "Island Rider is a spacious 4-bedroom hillside villa that commands panoramic views of St. John, St. Thomas, and the British Virgin Islands. This expansive property is perfect for larger families or groups of friends traveling together. The open-air great room is the heart of the villa, with comfortable seating, a dining area, and a well-equipped kitchen. Outside, the large pool deck offers plenty of space for sunbathing, and the covered pavilion is perfect for al fresco dining. Each of the four bedrooms is air-conditioned with its own bathroom. Island Rider is conveniently located between Cruz Bay and Coral Bay, giving you easy access to both sides of the island. The nearby Centerline Road offers quick trips to both north and south shore beaches.",
@@ -113,7 +93,7 @@ villas = [
         "slug": "mango-bay",
         "name": "Mango Bay",
         "image": "mango-bay.jpg",
-        "rooms": 2, "baths": 2,
+        "rooms": 4, "baths": "4.5", "sleeps": 8,
         "type": "Tropical Garden Serene Villa",
         "short_desc": "Serene 2-bedroom villa surrounded by lush tropical gardens near St. John's best beaches.",
         "description": "Mango Bay is a serene 2-bedroom villa surrounded by lush tropical gardens filled with mango trees, banana plants, and vibrant island flowers. This peaceful retreat is perfect for travelers seeking a quiet, nature-immersed St. John experience. The villa's covered deck looks out over the gardens to the sea beyond, and the sound of tree frogs at night creates a magical Caribbean ambiance. Despite its secluded feel, Mango Bay is just minutes from some of St. John's most famous beaches including Trunk Bay and Hawksnest Bay. The interior is comfortable and casual, with everything you need for a relaxing stay. Mango Bay is ideal for nature lovers and those who want to experience the lush, green side of St. John.",
@@ -123,7 +103,7 @@ villas = [
         "slug": "vista-caribe",
         "name": "Vista Caribe",
         "image": "vista-caribe.jpg",
-        "rooms": 5, "baths": 5,
+        "rooms": 4, "baths": 4, "sleeps": 8,
         "type": "Cliffside Panoramic Estate",
         "short_desc": "Grand 5-bedroom cliffside estate with jaw-dropping panoramic views of the Caribbean Sea in St. John.",
         "description": "Vista Caribe is a grand 5-bedroom cliffside estate that offers some of the most spectacular views in all of St. John. Perched on a dramatic cliff overlooking the Caribbean Sea, this luxury villa provides 180-degree panoramas from the British Virgin Islands to the south shore of St. John. The expansive property features a large infinity pool, multiple outdoor living areas, and a dramatic great room with walls of glass. Each of the five bedrooms is generously sized with en-suite bathrooms and private views. Vista Caribe is perfect for extended family gatherings, corporate retreats, or special celebrations. The villa is staffed with a property manager who can arrange concierge services, private chef, and island tours. Experience St. John at its most magnificent.",
@@ -133,7 +113,7 @@ villas = [
         "slug": "reef-break-vista",
         "name": "Reef Break Vista",
         "image": "reef-break-vista.jpg",
-        "rooms": 2, "baths": 2,
+        "rooms": 4, "baths": 3, "sleeps": 10,
         "type": "Oceanview Surf Villa",
         "short_desc": "2-bedroom oceanview villa near St. John's best surf spots with stunning reef and wave views.",
         "description": "Reef Break Vista is a 2-bedroom oceanview villa that takes its name from the visible reef break just offshore. Located on St. John's east end, this villa is a favorite among surfers, snorkelers, and ocean enthusiasts. The deck offers a front-row view of the reef where you can watch waves break and sea turtles surface. The villa is casual and comfortable, designed for active travelers who spend their days in the water. Both bedrooms are air-conditioned with ocean views. The east end location puts you near some of St. John's best snorkeling spots including Saltpond Bay and Drunk Bay. Coral Bay, with its laid-back restaurants and bars, is just a few minutes away.",
@@ -143,7 +123,7 @@ villas = [
         "slug": "sea-forever",
         "name": "Sea Forever",
         "image": "sea-forever.jpg",
-        "rooms": 6, "baths": 7,
+        "rooms": 5, "baths": "5.5", "sleeps": 10,
         "type": "Luxury Grand Estate",
         "short_desc": "Magnificent 6-bedroom luxury estate with pool, tennis court, and panoramic ocean views in St. John.",
         "description": "Sea Forever is the crown jewel of Seaview Homes' portfolio, a magnificent 6-bedroom luxury estate that sets the standard for St. John villas. This grand property features a stunning infinity pool, a private tennis court, and panoramic ocean views that stretch to the horizon. The great room is designed for entertaining, with a chef's kitchen, formal dining area, and comfortable lounging spaces. Each of the six bedrooms is a private suite with luxury bedding, en-suite bathroom, and individual climate control. The outdoor spaces are equally impressive, with multiple covered pavilions, an outdoor kitchen, and landscaped grounds. Sea Forever is perfect for large family reunions, destination weddings, or corporate retreats. The villa includes a full-time property manager and concierge service to ensure every detail of your stay is perfect.",
@@ -153,7 +133,7 @@ villas = [
         "slug": "rhapsody",
         "name": "Rhapsody",
         "image": "rhapsody.jpg",
-        "rooms": 4, "baths": 4,
+        "rooms": 5, "baths": "5.5", "sleeps": 10,
         "type": "Artistic Luxury Villa",
         "short_desc": "Artistic 4-bedroom luxury villa with unique design elements and stunning ocean views in St. John.",
         "description": "Rhapsody is an artistic 4-bedroom luxury villa that stands apart from the typical St. John rental. Every corner of this villa showcases unique design elements, from custom-built furniture to locally commissioned artwork. The great room features soaring ceilings and a wall of glass that frames the ocean view like a living painting. The pool deck is an extension of the artistic vision, with sculptural elements and a negative-edge pool. Each bedroom is individually designed with its own color palette and character. Rhapsody is perfect for design-conscious travelers who appreciate architecture and art as much as natural beauty. Located on St. John's prestigious south shore, the villa offers privacy and stunning views while being just 15 minutes from Cruz Bay.",
@@ -163,7 +143,7 @@ villas = [
         "slug": "waterfall",
         "name": "Waterfall",
         "image": "waterfall.jpg",
-        "rooms": 3, "baths": 3,
+        "rooms": 3, "baths": "3.5", "sleeps": 6,
         "type": "Hillside Pool Villa",
         "short_desc": "Luxurious 3-bedroom hillside villa with infinity pool and cascading water features in St. John, USVI.",
         "description": "Waterfall is a luxurious 3-bedroom hillside villa named for its stunning cascading water features that flow from the pool into the tropical landscape below. This villa is a serene sanctuary that combines luxury amenities with the natural beauty of St. John. The infinity pool appears to spill into the ocean, creating a seamless visual connection between the villa and the sea. The open-air living area is elegantly furnished and flows to the pool deck. Each of the three bedrooms offers privacy, comfort, and garden or ocean views. Waterfall is located in one of St. John's most desirable neighborhoods, offering both privacy and convenience. The villa is close to hiking trails in the Virgin Islands National Park and some of the island's best beaches.",
@@ -227,6 +207,7 @@ def generate_html(villa, all_villas):
     image = villa["image"]
     rooms = villa["rooms"]
     baths = villa["baths"]
+    sleeps = villa.get("sleeps", rooms * 2)
     vtype = villa["type"]
     short_desc = villa["short_desc"]
     desc = villa["description"]
@@ -336,14 +317,21 @@ def generate_html(villa, all_villas):
             <div class="hero-content container">
                 <h1>{name}</h1>
                 <p style="font-size: 1.2rem; color: white; margin-bottom: 1rem;">{vtype} in St. John, USVI</p>
-                <p style="color: rgba(255,255,255,0.9);">{rooms} BR | {baths} BA</p>
+                <p style="color: rgba(255,255,255,0.9);">{rooms} BR | {baths} BA | Sleeps {sleeps}</p>
             </div>
         </section>
 
         <!-- Description -->
         <section class="container">
             <div style="max-width: 800px; margin: 0 auto;">
-                <h2>About {name}</h2>
+                <div class="overview-heading">
+                    <h2>Overview</h2>
+                    <div class="overview-specs" aria-label="Villa overview details">
+                        <span class="overview-spec"><svg class="overview-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4v16"/><path d="M2 10h20"/><path d="M22 8v12"/><path d="M6 10V7a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3"/></svg> Beds {rooms}</span>
+                        <span class="overview-spec"><svg class="overview-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 4 8 6"/><path d="M17 19v2"/><path d="M7 19v2"/><path d="M2 12h20"/><path d="M7 12V5a3 3 0 0 1 5.1-2.1L14 4.8"/><path d="M5 12v3a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4v-3"/></svg> Baths {baths}</span>
+                        <span class="overview-spec"><svg class="overview-icon" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Sleeps {sleeps}</span>
+                    </div>
+                </div>
                 <p style="font-size: 1.1rem; line-height: 1.8; color: var(--color-text);">{desc}</p>
             </div>
         </section>
@@ -376,7 +364,7 @@ def generate_html(villa, all_villas):
         <section style="background: var(--color-primary); padding: 4rem 0; text-align: center;">
             <div class="container">
                 <h2 style="color: white; margin-bottom: 1rem;">Ready to Book {name}?</h2>
-                <p style="color: rgba(255,255,255,0.85); font-size: 1.15rem; margin-bottom: 2rem;">Call us at 1-340-776-6805 or send a message. We respond within 24 hours.</p>
+                <p style="color: rgba(255,255,255,0.85); font-size: 1.15rem; margin-bottom: 2rem;">Call us at 1-340-776-6805 or send a message.</p>
                 <a href="../contact.html" class="btn" style="background: var(--color-accent); color: var(--color-primary); font-size: 1.1rem; padding: 1.1rem 2.5rem;">Contact Us</a>
             </div>
         </section>
