@@ -37,13 +37,12 @@
       "mainEntity": {
         "@type": "LocalBusiness",
         "name": "Seaview Vacation Homes, Inc.",
-        "telephone": "+1-888-625-2963",
+        "telephone": "+1-340-776-6805",
         "contactPoint": {
           "@type": "ContactPoint",
           "telephone": "+1-340-776-6805",
           "contactType": "reservations"
         },
-        "faxNumber": "+1-340-779-4349",
         "email": "info@seaviewhomes.com",
         "address": {
           "@type": "PostalAddress",
@@ -96,9 +95,7 @@
                         <p>Reach out to our team for personalized booking assistance and concierge services.</p>
                     </div>
                     <div style="margin-bottom: 3rem;">
-                        <p><strong>Toll-Free:</strong> <a href="tel:+18886252963">1-888-625-2963</a></p>
-                        <p><strong>Local:</strong> <a href="tel:+13407766805">1-340-776-6805</a></p>
-                        <p><strong>Fax:</strong> 1-340-779-4349</p>
+                        <p><strong>Phone:</strong> <a href="tel:+13407766805">1-340-776-6805</a></p>
                         <p><strong>Email:</strong> <a href="mailto:info@seaviewhomes.com">info@seaviewhomes.com</a></p>
                         <p><strong>Address:</strong> 5000 Estate Enighed, PMB # 350, St. John VI 00830</p>
                     </div>
@@ -185,13 +182,13 @@
                                 .then(function (res) {
                                     if (res.ok) {
                                         form.reset();
-                                        show('Thank you — your inquiry is on its way. We respond within 24 hours.', true);
+                                        show('Thank you — your inquiry is on its way.', true);
                                     } else {
-                                        show(res.body.error || 'Something went wrong. Please call 1-888-625-2963.', false);
+                                        show(res.body.error || 'Something went wrong. Please call 1-340-776-6805.', false);
                                     }
                                 })
                                 .catch(function () {
-                                    show('Something went wrong. Please call 1-888-625-2963.', false);
+                                    show('Something went wrong. Please call 1-340-776-6805.', false);
                                 })
                                 .finally(function () {
                                     btn.disabled = false;
@@ -227,7 +224,7 @@
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.417 2.561-5.417 5.211 0 1.033.397 2.143.895 2.745.099.12.112.225.083.348-.09.375-.293 1.199-.334 1.367-.053.223-.175.271-.402.165-1.499-.698-2.436-2.895-2.436-4.658 0-3.794 2.755-7.281 7.951-7.281 4.176 0 7.421 2.977 7.421 6.958 0 4.154-2.62 7.495-6.253 7.495-1.222 0-2.371-.635-2.765-1.385l-.751 2.862c-.272 1.047-1.007 2.361-1.502 3.162C9.57 23.812 10.779 24 12.017 24c6.621 0 11.988-5.367 11.988-11.987C24.005 5.367 18.638 0 12.017 0z"/></svg>
                 </a>
             </div>
-            <p>Seaview Vacation Homes, Inc. | 5000 Estate Enighed, PMB # 350, St. John VI 00830 | Toll-Free: 1-888-625-2963 | Local: 1-340-776-6805 | Fax: 1-340-779-4349 | info@seaviewhomes.com</p>
+            <p>Seaview Vacation Homes, Inc. | 5000 Estate Enighed, PMB # 350, St. John VI 00830 | Phone: 1-340-776-6805 | info@seaviewhomes.com</p>
             <p>&copy; 2026 Seaview Vacation Homes, Inc. All rights reserved.</p>
         </div>
     </footer>
