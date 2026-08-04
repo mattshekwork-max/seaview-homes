@@ -239,14 +239,13 @@ section {
 }
 
 .villa-grid-home-featured {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
 }
 
 .villa-grid-home-featured .villa-card {
-    flex: 1 1 300px;
-    max-width: calc((100% - 4rem) / 3);
+    width: 100%;
+    max-width: 420px;
 }
 
 .villa-card {
@@ -462,6 +461,10 @@ footer p {
         grid-template-columns: 1fr;
         justify-items: center;
     }
+
+    .villa-grid-home-featured {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
     
     .container {
         width: 85%;
@@ -469,6 +472,12 @@ footer p {
     
     section {
         padding: 5rem 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .villa-grid-home-featured {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 /* ============================================
